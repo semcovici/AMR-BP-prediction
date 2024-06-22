@@ -1,0 +1,2251 @@
+# ::snt Meyer tem duas explicações para esses resultados.
+# ::tok Meyer tem duas explicações para esses resultados .
+# ::alignments 1-2|0 5-6|0.0.1.0.0 6-7|0.0.1.0.1 
+(h3 / ter-01
+    :ARG0 (p0 / person
+              :name (n1 / name
+                        :op1 "Meyer")
+              :ARG1 (e5 / explicar-01
+                        :ARG0 p0
+                        :ARG1 (t8 / coisa
+                                  :mod (t7 / esse)
+                                  :ARG2-of (r9 / resultar-01))
+                        :quant 2)
+              :wiki -))
+
+# ::snt Essa programação pode ser alterada quando necessário.
+# ::tok Essa programação pode ser alterada quando necessário .
+# ::alignments 6-7|0 4-5|0.0 1-2|0.0.0 0-1|0.0.0.0 
+(p2 / possible-01
+    :ARG1 (a3 / alterar-01
+              :ARG1 (p1 / programar-01
+                        :mod (t0 / esse)
+                        :time (n4 / necessário))))
+
+# ::snt Novo modelo de desenvolvimento para São Paulo
+# ::tok Novo modelo de desenvolvimento para São Paulo
+# ::alignments 1-2|0 0-1|0.1 
+(m2 / modelo
+    :topic (d3 / desenvolver-01
+               :ARG1 (l4 / location
+                         :name (n5 / name
+                                   :op2 "Paulo"
+                                   :op1 "São")
+                         :wiki -))
+    :mod (n / novo))
+
+# ::snt Isso poderia ser feito para a universidade.
+# ::tok Isso poderia ser feito para a universidade .
+# ::alignments 0-1|0 3-4|0.0 6-7|0.0.1 
+(p1 / possible-01
+    :ARG1 (d2 / fazer-01
+              :ARG1 (t0 / isso)
+              :ARG3 (u3 / universidade)))
+
+# ::snt "No Brasil, essa técnica é pouco conhecida.
+# ::tok " No Brasil , essa técnica é pouco conhecida .
+# ::alignments 6-7|0 2-3|0.0+0.0.0+0.0.0.0 5-6|0.1 4-5|0.1.0 7-8|0.2 
+(k6 / saber-01
+    :location (c0 / country
+                  :name (n1 / name
+                            :op1 "Brasil")
+                  :wiki "Brazil")
+    :ARG1 (t4 / técnica
+              :mod (t3 / esse))
+    :degree (l5 / pouco))
+
+# ::snt "As vocações foram definidas junto com as comunidades.
+# ::tok " As vocações foram definidas junto com as comunidades .
+# ::alignments 4-5|0 2-3|0.0 5-6|0.1 8-9|0.1.0 
+(d1 / definir-02
+    :ARG1 (v0 / vocação)
+    :manner (t2 / junto
+                :op1 (c3 / comunidade)))
+
+# ::snt Mais verba para P & D na Índia
+# ::tok Mais verba para P & D na Índia
+# ::alignments 1-2|0 0-1|0.0 
+(v / verba
+   :quant (m / mais)
+   :benificiary (a / and)
+   :op1 (p / pesquisa)
+   :op2 (d / desenvolvimento)
+   :location (c9 / country
+                 :name (n10 / name
+                            :op1 "India")
+                 :wiki "India"))
+
+# ::snt "Esse relógio foi totalmente produzido no Brasil, inclusive o projeto.
+# ::tok " Esse relógio foi totalmente produzido no Brasil , inclusive o projeto .
+# ::alignments 5-6|0 7-8|0.0+0.0.1+0.0.1.0 2-3|0.1.0 1-2|0.1.0.0 11-12|0.1.1 
+(p3 / produzir-01
+    :location (c4 / country
+                  :wiki "Brazil"
+                  :name (n5 / name
+                            :op1 "Brasil"))
+    :ARG1 (a / and
+             :op1 (c1 / relógio
+                      :mod (t0 / esse))
+             :op2 (p8 / projeto))
+    :manner (t2 / total))
+
+# ::snt Novos diretores no CNPq e Finep
+# ::tok Novos diretores no CNPq e Finep
+# ::alignments 1-2|0 
+(d4 / diretor
+    :ARG2-of (h3 / have-org-role-91
+                 :ARG1 (a6 / and
+                           :op1 (c0 / government-organization
+                                    :wiki "New_York_City"
+                                    :name (n1 / name
+                                              :op1 "CNPq"))
+                           :op2 (p7 / government-organization
+                                    :name (n8 / name
+                                              :op1 "Finep")
+                                    :wiki -)))
+    :mod novo)
+
+# ::snt A última fronteira está aqui", afirma Lewinsohn.
+# ::tok A última fronteira está aqui " , afirma Lewinsohn .
+# ::alignments 7-8|0 2-3|0.0 1-2|0.0.0 4-5|0.0.1 
+(s3 / falar-01
+    :ARG1 (f1 / fronteira
+              :mod (l0 / último)
+              :location (h2 / aqui))
+    :ARG0 (p4 / person
+              :wiki -
+              :name (n5 / name
+                        :op1 "Lewinsohn")))
+
+# ::snt A reunião será em Beijing, em abril.
+# ::tok A reunião será em Beijing , em abril .
+# ::alignments 
+(b1 / be-located-at-91
+    :ARG1 (m0 / reunir-101)
+    :ARG2 (c2 / city
+              :name (n3 / name
+                        :op1 "Beijing")
+              :wiki "Beijing")
+    :time (d6 / date-entity
+              :month (45 / 4)))
+
+# ::snt E isso acontece muito aqui no Brasil.
+# ::tok E isso acontece muito aqui no Brasil .
+# ::alignments 4-5|0 2-3|0.0 1-2|0.0.0 6-7|0.0.1+0.0.1.1+0.0.1.1.0 3-4|0.1 
+(a0 / and
+    :op2 (h4 / acontecer-01
+             :ARG1 (t1 / isso)
+             :location (c5 / country
+                           :wiki "Brazil"
+                           :name (n6 / name
+                                     :op1 "Brasil")))
+    :degree (m / muito))
+
+# ::snt Antigamente, as fronteiras entre os poderes eram menos demarcadas.
+# ::tok Antigamente , as fronteiras entre os poderes eram menos demarcadas .
+# ::alignments 9-10|0 8-9|0.1 3-4|0.2 4-5|0.3 6-7|0.3.0 
+(d4 / demarcate-01
+    :time (d1 / antigo)
+    :degree (l3 / menos)
+    :ARG1 (p2 / fronteira)
+    :location (e / entre
+                 :op1 (p / poder)))
+
+# ::snt Daí o seu nome técnico de solução isotônica.
+# ::tok Daí o seu nome técnico de solução isotônica .
+# ::alignments 3-4|0 6-7|0.0.0 7-8|0.0.0.0 4-5|0.0.0.1 
+(c0 / determinar-02
+    :ARG1 (n3 / nome
+              :mod (s5 / solução
+                       :mod (i4 / isotônico)
+                       :mod (t2 / técnico)
+                       :poss (it / ele))))
+
+# ::snt O primeiro registra as acelerações do equipamento.
+# ::tok O primeiro registra as acelerações do equipamento .
+# ::alignments 2-3|0 6-7|0.0.0 1-2|0.0.1.0.0 
+(r / registrar-02
+   :ARG1 (a3 / acelerar-01
+             :ARG0 (e4 / equipamento)
+             :ARG0 (c / coisa
+                      :ord (o1 / ordinal-entity
+                               :value 1))))
+
+# ::snt Os otimistas entendem que a crise é passageira.
+# ::tok Os otimistas entendem que a crise é passageira .
+# ::alignments 2-3|0 1-2|0.0 7-8|0.1 5-6|0.1.0 
+(u1 / entender-01
+    :ARG0 (o0 / otimista)
+    :ARG1 (t3 / passageiro
+              :domain (c2 / crise)))
+
+# ::snt O Dvideow foi projetado para ser usado em diferentes aplicações.
+# ::tok O Dvideow foi projetado para ser usado em diferentes aplicações .
+# ::alignments 3-4|0 9-10|0.1.0 8-9|0.1.0.0 
+(d3 / projetar-02
+    :ARG1 (p0 / program
+              :name (n1 / name
+                        :op1 "Dvideow")
+              :wiki -)
+    :purpose (u4 / utilizar-01
+                 :ARG1 p0
+                 :ARG3 (a6 / aplicação
+                           :mod (d / diferente))))
+
+# ::snt Método matemático aprimora interpretação de imagens de radares
+# ::tok Método matemático aprimora interpretação de imagens de radares
+# ::alignments 3-4|0 5-6|0.0 7-8|0.0.0 0-1|0.1.0 1-2|0.1.1 
+(i2 / interpretar-02
+    :ARG1 (i4 / imagem
+              :source (r3 / radar))
+    :ARG1-of (p1 / melhorar-01
+                 :ARG0 (m0 / método)
+                 :mod (m1 / matemático)))
+
+# ::snt A forma de vida da mídia
+# ::tok A forma de vida da mídia
+# ::alignments 1-2|0 3-4|0.0 5-6|0.0.0 
+(w0 / forma
+    :domain (l1 / vida
+                :poss (m2 / mídia)))
+
+# ::snt Pelo menos outros três SNPs forneceram dados relevantes.
+# ::tok Pelo menos outros três SNPs forneceram dados relevantes .
+# ::alignments 5-6|0 6-7|0.0 7-8|0.0.0 2-3|0.2.2 3-4|0.2.1 
+(p5 / proporcionar-01
+    :ARG1 (d7 / dado
+              :mod (i6 / relevante))
+    :mod (a0 / pelo-menos)
+    :ARG0 (d / dna-sequence
+             :name (n3 / name
+                       :op1 "Snps")
+             :quant 3
+             :mod (o / outro)))
+
+# ::snt O segundo volume da flora paulista
+# ::tok O segundo volume da flora paulista
+# ::alignments 2-3|0 4-6|0.0+0.0.1+0.0.1.0+0.0.1.1 1-2|0.1.0 
+(v2 / volume
+    :domain (c3 / journal
+                :wiki -
+                :name (n4 / name
+                          :op1 "flora"
+                          :op2 "paulista"))
+    :ord (o1 / ordinal-entity
+             :value 2))
+
+# ::snt O primado da ética e do bem - estar
+# ::tok O primado da ética e do bem - estar
+# ::alignments 1-2|0 6-7|0.0.1 
+(p2 / primado
+    :topic (a1 / and
+               :op1 ética
+               :op2 (w2 / bem-estar)))
+
+# ::snt Mais provas dos benefícios do álcool
+# ::tok Mais provas dos benefícios do álcool
+# ::alignments 1-2|0 0-1|0.0 5-6|0.1.0 
+(p1 / provar-01
+    :quant (m0 / mais)
+    :ARG1 (b2 / favorecer-01
+              :ARG0 (a3 / álcool)))
+
+# ::snt "A fórmula foi dimensionada para uso doméstico."
+# ::tok " A fórmula foi dimensionada para uso doméstico . "
+# ::alignments 4-5|0 2-3|0.0 7-8|0.1.0 
+(m2 / medir-01
+    :ARG1 (f0 / fórmula)
+    :purpose (u2 / utilizar-101
+                 :ARG1 f0
+                 :mod (d1 / doméstico)))
+
+# ::snt O dispositivo microprocessador funciona como um relógio.
+# ::tok O dispositivo microprocessador funciona como um relógio .
+# ::alignments 2-3|0 6-7|0.0 1-2|0.1.0 
+(r3 / lembrar-02
+    :ARG2 (c4 / relógio)
+    :ARG1 (w2 / trabalhar-01
+              :ARG1 (d1 / dispositivo
+                        :mod (m0 / microprocessador))))
+
+# ::snt Com a hemopressina, as reações se tornam mais complexas.
+# ::tok Com a hemopressina , as reações se tornam mais complexas .
+# ::alignments 7-8|0 9-10|0.0 8-9|0.0.0 5-6|0.1 2-3|0.2.0.0+0.2.0.0.0 
+(b2 / virar-01
+    :ARG2 (c4 / complexo
+              :degree (m3 / mais))
+    :ARG1 (r1 / reação)
+    :ARG1-of (h0 / cause-01
+                 :ARG0 (p2 / protein
+                           :name (n2 / name
+                                     :op1 "hemopressina"))))
+
+# ::snt Tese esmiúça a história da composição atonal brasileira
+# ::tok Tese esmiúça a história da composição atonal brasileira
+# ::alignments 0-1|0 3-4|0.1 7-8|0.1.0.0+0.1.0.0.0+0.1.0.0.0.0 6-7|0.1.0.1 
+(d0 / dissect-01
+    :ARG0 (t / tese)
+    :ARG1 (h1 / história
+              :topic (c5 / compor-03
+                         :location (c2 / country
+                                       :name (n3 / name
+                                                 :op1 "Brasil")
+                                       :wiki "Brazil")
+                         :mod (a4 / tonal
+                                  :polarity -))))
+
+# ::snt Afinal, os desenhos são quase sempre muito complexos.
+# ::tok Afinal , os desenhos são quase sempre muito complexos .
+# ::alignments 3-4|0 0-1|0.0 8-9|0.1 7-8|0.1.0 6-7|0.1.1 5-6|0.1.1.0 
+(d1 / desenho
+    :mod (a0 / afinal)
+    :domain-of (c5 / complexo
+                   :degree (v4 / muito)
+                   :time (a3 / sempre
+                             :mod (a2 / quase))))
+
+# ::snt Um banco com toda a cara do Brasil
+# ::tok Um banco com toda a cara do Brasil
+# ::alignments 5-6|0 1-2|0.0 7-8|0.1+0.1.1+0.1.1.0 3-4|0.2 
+(l2 / parecer-101
+    :ARG0 (b0 / banco)
+    :ARG1 (c3 / country
+              :wiki "Brazil"
+              :name (n4 / name
+                        :op1 "Brasil"))
+    :degree (a1 / todo))
+
+# ::snt "O momento é ideal para revitalizar o programa."
+# ::tok " O momento é ideal para revitalizar o programa . "
+# ::alignments 4-5|0 2-3|0.0 6-7|0.1 8-9|0.1.0 
+(i1 / ideal
+    :domain (m0 / momento)
+    :purpose (r2 / revitalize-01
+                 :ARG1 (p3 / programa)))
+
+# ::snt A terceira comunidade estudada é ainda menor.
+# ::tok A terceira comunidade estudada é ainda menor .
+# ::alignments 6-7|0 2-3|0.0 3-4|0.0.0 5-6|0.1 
+(s5 / menor
+    :domain (c2 / comunidade
+                :ARG1-of (s3 / estudar-01)
+                :ARG1 c2
+                :ord (o1 / ordinal-entity
+                         :value 3))
+    :mod (e4 / ainda))
+
+# ::snt "Os índios são autores de um trabalho científico.
+# ::tok " Os índios são autores de um trabalho científico .
+# ::alignments 4-5|0 2-3|0.0 7-8|0.1 8-9|0.1.0 
+(a5 / author-01
+    :ARG0 (p4 / índio)
+    :ARG1 (w7 / trabalhar-01
+              :mod (s6 / científico)))
+
+# ::snt O problema é que essa palavra implica duas noções equivocadas.
+# ::tok O problema é que essa palavra implica duas noções equivocadas .
+# ::alignments 1-2|0 6-7|0.0 5-6|0.0.0 4-5|0.0.0.0 8-9|0.0.1 
+(p0 / problema
+    :domain (i3 / implicar-01
+                :ARG0 (w2 / palavra
+                          :mod (t1 / esse))
+                :ARG1 (n / noção
+                         :quant 2
+                         :ARG1-of (m5 / mistake-02))))
+
+# ::snt "Esses defeitos são comuns em todas as bebidas do mundo.
+# ::tok " Esses defeitos são comuns em todas as bebidas do mundo .
+# ::alignments 4-5|0 2-3|0.0 1-2|0.0.0 6-7|0.1.0 10-11|0.1.1 
+(c3 / comum
+    :domain (d / defeito
+               :mod (t0 / esse))
+    :location (d5 / beber-01
+                  :mod (t / todos)
+                  :location (m / mundo)))
+
+# ::snt Sistema avalia atletas e pessoas com deficiências motoras
+# ::tok Sistema avalia atletas e pessoas com deficiências motoras
+# ::alignments 1-2|0 0-1|0.0 2-3|0.1.0 4-5|0.1.1 6-7|0.1.1.0.0 7-8|0.1.1.0.0.0 
+(a / avaliar-02
+   :ARG0 (s0 / sistema)
+   :ARG1 (a3 / and
+             :op1 (a2 / atleta)
+             :op2 (p / pessoa
+                     :ARG0-of (t / ter-01
+                                 :ARG1 (d6 / deficiência
+                                           :mod (m5 / motor))))))
+
+# ::snt Com a nova terapia, esses sintomas são controlados em menos tempo.
+# ::tok Com a nova terapia , esses sintomas são controlados em menos tempo .
+# ::alignments 8-9|0 6-7|0.0 5-6|0.1 3-4|0.2.0 2-3|0.2.0.0 11-12|0.3 
+(c4 / controlar-01
+    :ARG1 (s3 / sintoma)
+    :mod (t2 / esse)
+    :ARG1-of (c2 / cause-01
+                 :ARG0 (t1 / terapia
+                           :mod (n0 / novo)))
+    :time (t6 / tempo
+              :mod (l5 / menos)))
+
+# ::snt Estamos examinando várias alternativas", ele adiantou.
+# ::tok Estamos examinando várias alternativas " , ele adiantou .
+# ::alignments 0-1|0 6-7|0.0 1-2|0.1 3-4|0.1.1 2-3|0.1.1.0 
+(r5 / revelar-01
+    :ARG0 (e / ele)
+    :ARG1 (e1 / examinar-01
+              :ARG0 (w0 / nós)
+              :ARG1 (a3 / alternativa
+                        :quant (v / vários))))
+
+# ::snt Por enquanto, poucas empresas usam essa tecnologia no país.
+# ::tok Por enquanto , poucas empresas usam essa tecnologia no país .
+# ::alignments 5-6|0 4-5|0.0 3-4|0.0.0 7-8|0.1 6-7|0.1.0 9-10|0.2 0-1|0.3 
+(u / utilizar-01
+   :ARG0 (e / empresa
+            :quant (p / pouco))
+   :ARG1 (t / tecnologia
+            :mod (t4 / esse))
+   :location (p2 / país)
+   :time (p3 / por-enquanto))
+
+# ::snt Apesar das armadilhas, a tarefa pode ser gratificante.
+# ::tok Apesar das armadilhas , a tarefa pode ser gratificante .
+# ::alignments 5-6|0 2-3|0.1 
+(h0 / have-concession-91
+    :ARG1 (p3 / possible-01
+              :ARG1 (g4 / gratify-01
+                        :ARG0 (t / tarefa)))
+    :ARG2 (a / armadilha))
+
+# ::snt Aí deixei a Universidade de Haifa.
+# ::tok Aí deixei a Universidade de Haifa .
+# ::alignments 1-2|0 4-5|0.1+0.1.1+0.1.1.1 
+(l2 / deixar-01
+    :ARG0 (I1 / eu)
+    :ARG1 (u3 / university
+              :wiki -
+              :name (n4 / name
+                        :op1 "Universidade"
+                        :op2 "de"
+                        :op3 "Haifa")))
+
+# ::snt Conselho Internacional quer cientistas comprometidos com demandas sociais
+# ::tok Conselho Internacional quer cientistas comprometidos com demandas sociais
+# ::alignments 2-3|0 3-4|0.1 4-5|0.1.0 7-8|0.1.0.0.0 
+(w4 / querer-01
+    :ARG0 (o0 / organization
+              :name (n1 / name
+                        :op1 "Conselho"
+                        :op2 "Internacional")
+              :wiki -)
+    :ARG1 (s5 / cientista
+              :ARG1-of (i6 / comprometer-02
+                           :ARG2 (d8 / reivindicar-01
+                                     :topic (s7 / social)))))
+
+# ::snt São sete sócios e quatro funcionários.
+# ::tok São sete sócios e quatro funcionários .
+# ::alignments 5-6|0 1-2|0.0.0 4-5|0.1.0 
+(a2 / and
+    :op1 (p / pessoa
+            :quant 7
+            :ARG1-of (p1 / partner-01))
+    :op2 (p4 / pessoa
+             :quant 4
+             :ARG1-of (e5 / empregar-02)))
+
+# ::snt Energia solar, por exemplo, é muito limitada e cara.
+# ::tok Energia solar , por exemplo , é muito limitada e cara .
+# ::alignments 0-1|0 8-9|0.0.0 7-8|0.0.0.0 10-11|0.0.1 
+(e2 / exemplificar-01
+    :ARG0 (a5 / and
+              :op1 (l / limitar-01
+                      :degree (v3 / muito))
+              :op2 (c / caro
+                      :domain (e1 / energia
+                                  :source (s / sol)
+                                  :ARG1-of l))))
+
+# ::snt Esses genes codificam proteínas na superfície das células.
+# ::tok Esses genes codificam proteínas na superfície das células .
+# ::alignments 2-3|0 3-4|0.0 5-6|0.0.0 7-8|0.0.0.0 1-2|0.0.1 0-1|0.0.1.0 
+(c2 / codify-01
+    :ARG1 (p3 / proteína
+              :location (s4 / superfície
+                            :part-of (c / célula))
+              :ARG0 (g1 / gene
+                        :mod (t0 / esse))))
+
+# ::snt "Usamos a mesma técnica para recobrir as duas brocas.
+# ::tok " Usamos a mesma técnica para recobrir as duas brocas .
+# ::alignments 4-5|0 6-7|0.2 9-10|0.2.0 
+(u / utilizar-101
+   :ARG0 (w0 / nós)
+   :ARG1 (t / técnica
+            :ARG1-of (s2 / same-01))
+   :ARG2 (c4 / cobrir-01
+             :ARG0 w0
+             :ARG1 (b / broca
+                      :quant 2)))
+
+# ::snt Antonio Eduardo divide a história dos festivais em quatro fases.
+# ::tok Antonio Eduardo divide a história dos festivais em quatro fases .
+# ::alignments 2-3|0 4-5|0.0 9-10|0.1 8-9|0.1.0 
+(d4 / dividir-01
+    :ARG1 (h5 / história
+              :topic (f6 / festival))
+    :ARG2 (p8 / fase
+              :quant 4)
+    :ARG0 (p0 / person
+              :name (n1 / name
+                        :op2 "Eduardo"
+                        :op1 "Antonio")
+              :wiki -))
+
+# ::snt Foi sua segunda viagem ao Brasil.
+# ::tok Foi sua segunda viagem ao Brasil .
+# ::alignments 3-4|0 5-6|0.0+0.0.1+0.0.1.0 
+(t4 / viajar-01
+    :ARG1 (c5 / country
+              :wiki "Brazil"
+              :name (n6 / name
+                        :op1 "Brasil"))
+    :ord (o3 / ordinal-entity
+             :value 2)
+    :ARG0 (he / ele))
+
+# ::snt "Nós queremos popularizar esse tipo de controle", diz Araújo.
+# ::tok " Nós queremos popularizar esse tipo de controle " , diz Araújo .
+# ::alignments 3-4|0 2-3|0.1 1-2|0.1.0 5-6|0.1.0.0.0 7-8|0.1.0.0.0.0 4-5|0.1.0.0.0.0.0 
+(s6 / falar-01
+    :ARG0 (p7 / person
+              :wiki -
+              :name (n8 / name
+                        :op1 "Araújo"))
+    :ARG1 (w1 / querer-01
+              :ARG0 (w0 / nós
+                        :ARG0-of (p2 / popularize-01
+                                     :ARG1 (t / tipo
+                                              :topic (c5 / controlar-01
+                                                         :mod (t3 / esse)))
+                                     :ARG1-of w1))))
+
+# ::snt Os resultados têm sido ótimos, relatam.
+# ::tok Os resultados têm sido ótimos , relatam .
+# ::alignments 6-7|0 1-2|0.1.1 
+(r4 / relatar-01
+    :ARG0 (they / eles)
+    :ARG1 (t0 / coisa
+              :mod (e2 / ótimo)
+              :ARG2-of (r1 / resultar-01)))
+
+# ::snt Teste da Fiocruz detecta infecções leves de esquistossomose
+# ::tok Teste da Fiocruz detecta infecções leves de esquistossomose
+# ::alignments 3-4|0 7-8|0.0.0+0.1.0.0.0.0 5-6|0.1.0.1 
+(t1 / testar-01
+    :ARG0 (g / government-organization
+             :name (n2 / name
+                       :op1 "Fiocruz"))
+    :ARG0-of (d2 / detectar-01
+                 :ARG1 (i4 / infect-01
+                           :ARG2 (d / disease
+                                    :name (n / name
+                                             :op1 "esquistossomose"))
+                           :degree (s3 / leve))))
+
+# ::snt Em São Paulo, essa obrigatoriedade é bem mais antiga.
+# ::tok Em São Paulo , essa obrigatoriedade é bem mais antiga .
+# ::alignments 9-10|0 4-5|0.0.0 8-9|0.1 
+(a / antigo
+   :domain (r5 / exigir-01
+               :mod (t4 / esse)
+               :location (c0 / city
+                             :wiki -
+                             :name (n1 / name
+                                       :op1 "São"
+                                       :op2 "Paulo")))
+   :degree (f6 / mais))
+
+# ::snt O bios é uma qualificação, uma iluminação particular.
+# ::tok O bios é uma qualificação , uma iluminação particular .
+# ::alignments 8-9|0 1-2|0.2.0+0.2.0.0 
+(a / and
+   :op1 (q / qualificar-01)
+   :op2 (i2 / iluminar-01
+            :manner (p2 / particular))
+   :domain (t / thing
+              :name (n / name
+                       :op1 "bios")))
+
+# ::snt Trabalho, correria, progresso, modernidade, oportunidades e barulho.
+# ::tok Trabalho , correria , progresso , modernidade , oportunidades e barulho .
+# ::alignments 6-7|0 0-1|0.0 8-9|0.4 10-11|0.5 
+(a / and
+   :op1 (t / trabalhar-01)
+   :op2 (c / correr-03)
+   :op3 (a2 / avançar-01)
+   :op4 (m / moderno)
+   :op5 (o / oportunidade)
+   :op6 (b / barulho))
+
+# ::snt O hidrogênio seria extraído do gás natural.
+# ::tok O hidrogênio seria extraído do gás natural .
+# ::alignments 3-4|0 1-2|0.0 5-6|0.1 6-7|0.1.0 
+(e1 / extract-01
+    :ARG1 (h0 / hidrogênio)
+    :ARG2 (g3 / gás
+              :mod (n / natural)))
+
+# ::snt As restrições aumentam, por exemplo, na psiquiatria e na oncologia.
+# ::tok As restrições aumentam , por exemplo , na psiquiatria e na oncologia .
+# ::alignments 5-6|0 8-9|0.0.1.0 11-12|0.0.1.1 
+(e2 / exemplificar-01
+    :ARG0 (i1 / crescer-01
+              :ARG1 (r / restringir-01)
+              :location (a4 / and
+                            :op1 (p / psiquiatria)
+                            :op2 (o / oncologia))))
+
+# ::snt "A imprensa é apenas ilusão de objetividade.
+# ::tok " A imprensa é apenas ilusão de objetividade .
+# ::alignments 5-6|0 4-5|0.0 7-8|0.1 2-3|0.2 
+(i2 / ilusão
+    :mod (o1 / apenas)
+    :topic (o3 / objetividade)
+    :domain (p0 / imprensa))
+
+# ::snt Esses são os quatro modelos mais usados pelos dentistas.
+# ::tok Esses são os quatro modelos mais usados pelos dentistas .
+# ::alignments 0-1|0 4-5|0.0 8-9|0.0.1.0.0 3-4|0.0.0 
+(t0 / esse
+    :domain (m / modelo
+               :quant 4
+               :ARG1-of (h / have-degree-91
+                           :ARG2 (u / utilizar-101
+                                    :ARG0 (d5 / dentista)
+                                    :ARG3 (m2 / máximo)))))
+
+# ::snt "O nosso foi integralmente desenvolvido aqui", conta Mônica.
+# ::tok " O nosso foi integralmente desenvolvido aqui " , conta Mônica .
+# ::alignments 9-10|0 5-6|0.1 4-5|0.1.2 6-7|0.1.3 
+(s6 / falar-01
+    :ARG0 (p7 / person
+              :wiki "Monica_Lewinsky"
+              :name (n8 / name
+                        :op1 "Mônica"))
+    :ARG1 (d4 / desenvolver-01
+              :ARG0 (n / nós)
+              :ARG1 (t / coisa)
+              :manner (e3 / integral)
+              :location (a / aqui)))
+
+# ::snt Elas compreendiam 633 textos, alguns com mais de 60 páginas.
+# ::tok Elas compreendiam 633 textos , alguns com mais de 60 páginas .
+# ::alignments 1-2|0 0-1|0.0 3-4|0.1 7-8|0.1.1.0.0 10-11|0.1.1.0.0.0 2-3|0.1.0 9-10|0.1.1.0.0.0.0 
+(c1 / comportar-01
+    :ARG1 (e / eles)
+    :ARG2 (t / texto
+             :quant 633
+             :ARG2-of (i2 / include-91
+                          :ARG1 (s4 / texto
+                                    :poss-of (m / mais-de
+                                                :op1 (p7 / página
+                                                         :quant 60))))))
+
+# ::snt Natura quer projetos de pesquisa para aplicação em cosméticos
+# ::tok Natura quer projetos de pesquisa para aplicação em cosméticos
+# ::alignments 1-2|0 2-3|0.1 8-9|0.1.0.0 4-5|0.1.1 
+(w3 / querer-01
+    :ARG0 (c / company
+             :wiki -
+             :name (n1 / name
+                       :op1 "Natura"))
+    :ARG1 (p / projeto
+             :purpose (a6 / praticar-01
+                          :ARG1 p
+                          :ARG2 (c7 / cosmético))
+             :topic (p2 / pesquisar-01)))
+
+# ::snt Essas medidas violam os princípios defendidos pela entidade.
+# ::tok Essas medidas violam os princípios defendidos pela entidade .
+# ::alignments 2-3|0 0-1|0.0.0 5-6|0.1 7-8|0.1.0 4-5|0.1.1 
+(v2 / violar-01
+    :ARG0 (m1 / measure-02
+              :mod (t0 / esse))
+    :ARG1 (d4 / defender-01
+              :ARG0 (e6 / entidade)
+              :ARG1 (p3 / princípio)))
+
+# ::snt A Amazônia é uma fonte de surpresas.
+# ::tok A Amazônia é uma fonte de surpresas .
+# ::alignments 6-7|0 
+(s5 / surpreender-01
+    :ARG0 (l0 / location
+              :wiki -
+              :name (n1 / name
+                        :op1 "Amazônia")
+              :ARG1-of (s4 / source-02)))
+
+# ::snt Algo semelhante aconteceu com a produção de proteínas.
+# ::tok Algo semelhante aconteceu com a produção de proteínas .
+# ::alignments 2-3|0 0-1|0.0 1-2|0.0.0 7-8|0.1.0 
+(a / acontecer-01
+   :ARG0 (s0 / algo
+             :mod (s / semelhante))
+   :ARG2 (p / produzir-01
+            :ARG1 (p4 / proteína)))
+
+# ::snt Tudo isso para provar que Fleming não era nenhum diletante.
+# ::tok Tudo isso para provar que Fleming não era nenhum diletante .
+# ::alignments 3-4|0 9-10|0.0 1-2|0.1 0-1|0.1.0 6-7|0.0.0 
+(p2 / provar-01
+    :ARG1 (d / diletante
+             :polarity -
+             :domain (p3 / person
+                         :name (n4 / name
+                                   :op1 "Fleming")))
+    :purpose-of (t1 / isso
+                    :mod (a0 / tudo)))
+
+# ::snt A FAPESP e as empresas dividem os custos do projeto.
+# ::tok A FAPESP e as empresas dividem os custos do projeto .
+# ::alignments 5-6|0 4-5|0.0.1 9-10|0.1.0 
+(d / dividir-02
+   :ARG0 (a / and
+            :op1 (g / government-organization
+                    :name (n / name
+                             :op1 "FAPESP"))
+            :op2 (e / empresa))
+   :ARG1 (c4 / custar-01
+             :ARG1 (p5 / projeto)))
+
+# ::snt "Mas o projeto não foi aprovado", lembra Coutinho.
+# ::tok " Mas o projeto não foi aprovado " , lembra Coutinho .
+# ::alignments 1-2|0 6-7|0.0 3-4|0.0.1 9-10|0.1 
+(c0 / contrast-01
+    :ARG2 (a3 / aprovar-01
+              :polarity -
+              :ARG1 (p1 / projeto))
+    :ARG1-of (l / lembrar-01
+                :ARG0 (p5 / person
+                          :name (n6 / name
+                                    :op1 "Coutinho"))))
+
+# ::snt É uma questão de tempo e investimento."
+# ::tok É uma questão de tempo e investimento . "
+# ::alignments 2-3|0 4-5|0.0.0 
+(q / questão
+   :topic (a3 / and
+              :op1 (t / tempo)
+              :op2 (i4 / investir-01)))
+
+# ::snt A qualidade e o dinamismo da produção científica brasileira são incontestáveis.
+# ::tok A qualidade e o dinamismo da produção científica brasileira são incontestáveis .
+# ::alignments 10-11|0 1-2|0.1.0 4-5|0.1.1 8-9|0.1.2.0+0.1.2.0.1+0.1.2.0.1.0 
+(c / contestável
+   :polarity -
+   :domain (a / and
+              :op1 (q / qualidade)
+              :op2 (d2 / dinamismo)
+              :poss (p7 / produzir-01
+                        :ARG0 (c3 / country
+                                  :wiki "Brazil"
+                                  :name (n4 / name
+                                            :op1 "Brasil"))
+                        :ARG1 (c2 / ciência))))
+
+# ::snt O novo enfoque pode ter implicações importantes.
+# ::tok O novo enfoque pode ter implicações importantes .
+# ::alignments 5-6|0 4-5|0.0 2-3|0.0.0 1-2|0.0.0.0 6-7|0.0.1.0 
+(p / possible-01
+   :ARG1 (h3 / ter-01
+             :ARG0 (e / enfoque
+                      :mod (n / novo))
+             :ARG1 (i5 / implicar-01
+                       :mod (i4 / importante))))
+
+# ::snt Rum é rum e cachaça é cachaça.
+# ::tok Rum é rum e cachaça é cachaça .
+# ::alignments 4-5|0 2-3|0.1.0 
+(a3 / and
+    :op2 (c4 / same-01
+             :ARG1 (c / cachaça)
+             :ARG2 c)
+    :op1 (n0 / same-01
+             :ARG1 (r / rum)
+             :ARG2 r))
+
+# ::snt Para a Eaton, a parceria com a Unicamp é altamente vantajosa.
+# ::tok Para a Eaton , a parceria com a Unicamp é altamente vantajosa .
+# ::alignments 11-12|0 10-11|0.2 
+(a8 / vantajoso
+    :domain (p3 / partner-01
+                :ARG0 p0
+                :ARG1 (c4 / university
+                          :name (n5 / name
+                                    :op1 "Unicamp")
+                          :wiki -))
+    :beneficiary (p0 / company
+                     :name (n1 / name
+                               :op1 "Eaton")
+                     :wiki -)
+    :mod (h7 / altamente))
+
+# ::snt O preço de cada processador está estimado em torno de R$ 50.
+# ::tok O preço de cada processador está estimado em torno de R $ 50 .
+# ::alignments 6-7|0 1-2|0.0 4-5|0.0.0 3-4|0.0.0.0 12-13|0.1.0.1 
+(e5 / estimar-01
+    :ARG1 (t0 / preço
+              :topic (p3 / processador
+                         :mod (e2 / cada)))
+    :ARG2 (a6 / em_torno_de
+              :op1 (m8 / monetary-quantity
+                       :unit (R7 / R$)
+                       :quant 50)))
+
+# ::snt Essas equipes se especializam em segmentos e trabalham por mercado."
+# ::tok Essas equipes se especializam em segmentos e trabalham por mercado . "
+# ::alignments 7-8|0 3-4|0.0 1-2|0.0.0 0-1|0.0.0.0 5-6|0.0.1 9-10|0.1.0 
+(a4 / and
+    :op1 (e / especializar-101
+            :ARG1 (e2 / equipe
+                      :mod (t0 / esse))
+            :ARG2 (s / segmento))
+    :op2 (w5 / trabalhar-01
+             :ARG0 e2
+             :manner (m / mercado)))
+
+# ::snt A mesma quantidade de carne normal contém 8,8 gramas de gordura.
+# ::tok A mesma quantidade de carne normal contém 8,8 gramas de gordura .
+# ::alignments 5-6|0 2-3|0.0.0 4-5|0.0.0.0 10-11|0.1 8-9|0.1.0+0.1.0.1 
+(c4 / incluir-02
+    :ARG0 (m3 / same-01
+              :ARG1 (q / quantidade
+                       :topic (c / carne
+                                 :mod (n2 / normal))))
+    :ARG1 (f8 / gordura
+              :quant (m6 / mass-quantity
+                         :quant 8.8
+                         :unit (g / grama))))
+
+# ::snt Os pesquisadores se surpreenderam por outra razão.
+# ::tok Os pesquisadores se surpreenderam por outra razão .
+# ::alignments 3-4|0 1-2|0.0.0 6-7|0.1 5-6|0.1.0 
+(s2 / surpreender-101
+    :ARG1 (p2 / pessoa
+              :ARG0-of (p / pesquisar-01))
+    :ARG2 (r4 / razão
+              :mod (a3 / outro)))
+
+# ::snt "Estamos muito otimistas", afirma o professor Luiz Gonçalves.
+# ::tok " Estamos muito otimistas " , afirma o professor Luiz Gonçalves .
+# ::alignments 6-7|0 3-4|0.0 2-3|0.0.1 8-9|0.1.1.0 
+(s3 / falar-01
+    :ARG1 (o2 / otimistas
+              :domain (w0 / nós)
+              :degree (v1 / muito))
+    :ARG0 (p6 / person
+              :name (n7 / name
+                        :op2 "Luiz"
+                        :op1 "Gonçalves")
+              :ARG0-of (h4 / have-org-role-91
+                           :ARG2 (p5 / professor))
+              :wiki -))
+
+# ::snt Pesquisadores do Cebrid interrompem pesquisa com os Krahô
+# ::tok Pesquisadores do Cebrid interrompem pesquisa com os Krahô
+# ::alignments 3-4|0 4-5|0.0 
+(i4 / interromper-01
+    :ARG0 (r5 / pesquisar-01
+              :ARG0-of (h / have-org-role-91
+                          :ARG1 (m1 / government-organization
+                                    :wiki -
+                                    :name (n2 / name
+                                              :op1 "Cebrid"))))
+    :ARG1 (p2 / pesquisar-01
+              :ARG0 h
+              :ARG1 (p6 / ethnic-group
+                        :name (n7 / name
+                                  :op1 "Krahô"
+                                  :wiki -))))
+
+# ::snt Os órgãos repressivos trataram de censurar essas idéias."
+# ::tok Os órgãos repressivos trataram de censurar essas idéias . "
+# ::alignments 5-6|0 1-2|0.0.0 7-8|0.1 6-7|0.1.0 
+(c3 / censor-01
+    :ARG0 (r0 / reprimir-01
+              :ARG0 (o1 / órgão))
+    :ARG1 (i5 / ideia
+              :mod (t4 / esse)))
+
+# ::snt A destruição da biblioteca régia foi uma grande perda.
+# ::tok A destruição da biblioteca régia foi uma grande perda .
+# ::alignments 5-6|0 3-4|0.0.0 4-5|0.0.0.0 7-8|0.1 
+(l4 / perder-02
+    :ARG1 (d0 / destruir-01
+              :ARG1 (b / biblioteca
+                       :mod (r1 / régia)))
+    :degree (g3 / grande))
+
+# ::snt A técnica usada é a projeção de luz sobre o corpo.
+# ::tok A técnica usada é a projeção de luz sobre o corpo .
+# ::alignments 1-2|0 7-8|0.1.0 10-11|0.1.1 
+(u1 / utilizar-01
+    :ARG1 (t0 / técnica)
+    :domain (p / projetar-04
+               :ARG1 (l / luz)
+               :ARG2 (b5 / corpo)))
+
+# ::snt A pesquisa é financiada pela empresa farmacêutica Astra Zeneca.
+# ::tok A pesquisa é financiada pela empresa farmacêutica Astra Zeneca .
+# ::alignments 1-2|0 3-4|0.0 6-7|0.1.0 
+(r0 / pesquisar-01
+    :ARG1-of (f1 / financiar-01)
+    :ARG0 (c4 / company
+              :mod (p3 / farmacêutico)
+              :name (n5 / name
+                        :op1 "Astra"
+                        :op2 "Zeneca")
+              :wiki -))
+
+# ::snt Lampejos na bóia com refletor
+# ::tok Lampejos na bóia com refletor
+# ::alignments 3-4|0 0-1|0.0 4-5|0.0.0 
+(b1 / buoy-01
+    :location-of (f0 / lampejo
+                     :accompanier (r2 / refletor)))
+
+# ::snt Pode também auxiliar na saúde humana.
+# ::tok Pode também auxiliar na saúde humana .
+# ::alignments 0-1|0 2-3|0.0 1-2|0.0.0 4-5|0.0.2 5-6|0.0.2.0 
+(p1 / possible-01
+    :ARG1 (a3 / auxiliar-01
+              :mod (a2 / também)
+              :ARG0 (it / ele)
+              :ARG2 (h5 / saúde
+                        :mod (h4 / humano))))
+
+# ::snt Essa medida é conhecida como fator de impacto.
+# ::tok Essa medida é conhecida como fator de impacto .
+# ::alignments 2-3|0 0-1|0.0.0 
+(k2 / saber-01
+    :ARG1 (m1 / measure-02
+              :mod (t0 / esse))
+    :ARG0-of (i3 / repercutir-01))
+
+# ::snt Sérgio Rezende é o novo presidente da Financiadora de Estudos e Projetos (Finep).
+# ::tok Sérgio Rezende é o novo presidente da Financiadora de Estudos e Projetos ( Finep ) .
+# ::alignments 5-6|0 8-11|0.0.1+0.0.0.0+0.0.1.0.1+0.0.1.0.3 4-5|0.1 
+(p6 / presidente
+    :ARG2-of (h5 / have-org-role-91
+                 :ARG0 (p0 / person
+                           :name (n1 / name
+                                     :op1 "Sérgio"
+                                     :op2 "Rezende")
+                           :wiki -)
+                 :ARG1 (g / government-organization
+                          :name (n9 / name
+                                    :op1 "Financiadora"
+                                    :op2 "de"
+                                    :op3 "Estudos"
+                                    :op4 "e"
+                                    :op5 "Projetos_(Finep)")))
+    :mod (n / novo))
+
+# ::snt O doutor Alberto nunca descobriu os motivos de sua cassação.
+# ::tok O doutor Alberto nunca descobriu os motivos de sua cassação .
+# ::alignments 4-5|0 3-4|0.0 1-2|0.1 
+(d4 / descobrir-01
+    :time (e3 / nunca)
+    :ARG0 (n0 / doutor
+              :name (n / name
+                       :op1 "Alberto"))
+    :ARG1 (d1 / determinar-02
+              :ARG1 (b6 / cassar-01
+                        :ARG2 n0)))
+
+# ::snt Laboratório da UFMG sintetiza nova geração de biomateriais
+# ::tok Laboratório da UFMG sintetiza nova geração de biomateriais
+# ::alignments 3-4|0 0-1|0.0 5-6|0.1 7-8|0.1.0 4-5|0.1.1 
+(s4 / synthesize-01
+    :ARG0 (l0 / laboratório
+              :part (o1 / university
+                        :wiki -
+                        :name (n2 / name
+                                  :op1 "Ufmg")))
+    :ARG1 (g / geração
+             :topic (b / biomaterial)
+             :mod (n / novo)))
+
+# ::snt Esse também deve ser o caso da morte súbita.
+# ::tok Esse também deve ser o caso da morte súbita .
+# ::alignments 8-9|0 1-2|0.0 0-1|0.1.1 
+(o1 / obligate-01
+    :mod (a2 / também)
+    :ARG2 (c3 / case-04
+              :ARG1 (d5 / morrer-01
+                        :manner (s4 / súbito))
+              :ARG1 (t0 / esse)))
+
+# ::snt Com a reestruturação, esses valores foram postos em xeque."
+# ::tok Com a reestruturação , esses valores foram postos em xeque . "
+# ::alignments 2-3|0 5-6|0.1 4-5|0.1.0 
+(a / ameaçar-01
+   :ARG0 (r / restructure-01)
+   :ARG2 (v / valor
+            :mod (e / esse)))
+
+# ::snt Outra nação que planejou seu desenvolvimento tecnológico foi o Canadá.
+# ::tok Outra nação que planejou seu desenvolvimento tecnológico foi o Canadá .
+# ::alignments 3-4|0 1-2|0.0 0-1|0.0.0 9-10|0.0.1+0.0.1.1+0.0.1.1.0 6-7|0.1.0 
+(p2 / programar-01
+    :ARG0 (n1 / nação
+              :mod (o / outro)
+              :domain (c5 / country
+                          :wiki "Canada"
+                          :name (n6 / name
+                                    :op1 "Canadá")))
+    :ARG1 (d4 / desenvolver-01
+              :ARG1 (t / tecnologia)
+              :ARG0 c5))
+
+# ::snt Nem todo mundo aprovou as idéias de Buckeridge e Aidar.
+# ::tok Nem todo mundo aprovou as idéias de Buckeridge e Aidar .
+# ::alignments 3-4|0 5-6|0.1 
+(a2 / aprovar-01
+    :ARG0 (e1 / todo_mundo
+              :polarity -)
+    :ARG1 (i3 / ideia
+              :source (a7 / and
+                          :op1 (c4 / person
+                                   :name (n5 / name
+                                             :op1 "Buckeridge")
+                                   :wiki -)
+                          :op2 (p8 / person
+                                   :name (n9 / name
+                                             :op1 "Aidar")
+                                   :wiki -))))
+
+# ::snt Novas técnicas e sensores identificam jazidas minerais com mais precisão
+# ::tok Novas técnicas e sensores identificam jazidas minerais com mais precisão
+# ::alignments 4-5|0 1-2|0.0.0 3-4|0.0.1 0-1|0.0.2 5-6|0.1 6-7|0.1.0 9-10|0.2 8-9|0.2.0 
+(i5 / identificar-01
+    :ARG0 (a3 / and
+              :op1 (t2 / técnica)
+              :op2 (s / sensor)
+              :mod (n / novo))
+    :ARG1 (d7 / jazida
+              :mod (m6 / mineral))
+    :manner (p9 / precisão
+                :degree (m8 / mais)))
+
+# ::snt E tudo parece estar funcionando à perfeição.
+# ::tok E tudo parece estar funcionando à perfeição .
+# ::alignments 2-3|0 1-2|0.1 6-7|0.2.0 
+(s2 / parecer-01
+    :op2-of and
+    :ARG1 (e1 / tudo)
+    :ARG2 (w3 / trabalhar-01
+              :manner (p4 / perfeição)))
+
+# ::snt Meu dever era para com o conhecimento", disse.
+# ::tok Meu dever era para com o conhecimento " , disse .
+# ::alignments 3-4|0 
+(s4 / falar-01
+    :ARG0 (e / ele
+             :ARG1 (d1 / obligate-01
+                       :poss e
+                       :ARG1 (k2 / saber-01))))
+
+# ::snt A vida em forma de saca - rolhas
+# ::tok A vida em forma de saca - rolhas
+# ::alignments 7-8|0 1-2|0.0 
+(s1 / shape-01
+    :ARG1 (l0 / vida)
+    :ARG2 (s / saca_rolha))
+
+# ::snt O terceiro aplicativo do sistema é a análise de movimentos respiratórios.
+# ::tok O terceiro aplicativo do sistema é a análise de movimentos respiratórios .
+# ::alignments 2-3|0 4-5|0.0 9-10|0.2.0 10-11|0.2.0.0 1-2|0.1.0 
+(a / aplicativo
+   :part-of (s3 / sistema)
+   :ord (o1 / ordinal-entity
+            :value 3)
+   :ARG0-of (a4 / analisar-01
+                :ARG1 (a2 / movimento
+                          :mod (r5 / respiratório))))
+
+# ::snt As raízes das plantas entram em contato com numerosos microrganismos.
+# ::tok As raízes das plantas entram em contato com numerosos microrganismos .
+# ::alignments 4-5|0 1-2|0.0 3-4|0.0.0 6-7|0.1 9-10|0.1.0 8-9|0.1.0.0 
+(e / entrar-02
+   :ARG0 (r0 / raíz
+             :part-of (p1 / planta))
+   :ARG1 (c / contato
+            :op1 r0
+            :op2 (m5 / microrganismo
+                     :quant (n / numeroso))))
+
+# ::snt Risco de infarto no laranjal
+# ::tok Risco de infarto no laranjal
+# ::alignments 0-1|0 2-3|0.0 4-5|0.1 
+(a2 / risco
+    :topic (h1 / infarto)
+    :location (l / laranjal))
+
+# ::snt Os serviços prestados pelo ON são numerosos.
+# ::tok Os serviços prestados pelo ON são numerosos .
+# ::alignments 2-3|0 1-2|0.1 6-7|0.1.0 
+(p / prestar-01
+   :ARG0 (o / organization
+            :name (n / name
+                     :op1 "ON"))
+   :ARG1 (s0 / serviço
+             :quant (n2 / numeroso)))
+
+# ::snt Entretanto, a fotoexpansão apresenta desvantagens para a estabilidade do material.
+# ::tok Entretanto , a fotoexpansão apresenta desvantagens para a estabilidade do material .
+# ::alignments 0-1|0 5-6|0.0.0 8-9|0.0.0.1 10-11|0.0.0.1.0 3-4|0.0.1 
+(c0 / contrast-01
+    :ARG2 (s2 / mostrar-01
+              :ARG1 (a4 / vantagem
+                        :polarity -
+                        :topic (s5 / estabilidade
+                                   :mod (m6 / material)))
+              :ARG0 (p1 / fotoexpansão)))
+
+# ::snt "Com o PMU, as coisas se tornaram bem menos burocráticas."
+# ::tok " Com o PMU , as coisas se tornaram bem menos burocráticas . "
+# ::alignments 8-9|0 6-7|0.0 11-12|0.1 10-11|0.1.0 9-10|0.1.0.0 
+(b4 / virar-01
+    :ARG1 (t3 / coisa)
+    :ARG2 (b7 / burocrático
+              :degree (m / menos
+                         :degree (f5 / bem)))
+    :ARG1-of (c / cause-01
+                :ARG0 (p / program
+                         :wiki -
+                         :name (n / name
+                                  :op1 "PMU"))))
+
+# ::snt Outras três teriam sido desenvolvidas especificamente para a tuberculose.
+# ::tok Outras três teriam sido desenvolvidas especificamente para a tuberculose .
+# ::alignments 4-5|0 0-1|0.0 8-9|0.2.0+0.2.0.0 1-2|0.0.0 
+(d2 / desenvolver-01
+    :ARG1 (o / outro
+             :quant 3)
+    :manner (e / específico)
+    :topic (d / disease
+              :name (n / name
+                       :op1 "tuberculose")))
+
+# ::snt A escolha desse local é estratégica.
+# ::tok A escolha desse local é estratégica .
+# ::alignments 1-2|0 3-4|0.0 5-6|0.1 
+(c0 / escolher-01
+    :ARG1 (l2 / local
+              :mod (t1 / esse))
+    :mod (s3 / estratégico))
+
+# ::snt Fiquei admirada, porque essa é uma universidade religiosa.
+# ::tok Fiquei admirada , porque essa é uma universidade religiosa .
+# ::alignments 5-6|0 8-9|0.1.0 7-8|0.1.0.0 4-5|0.1.0.0.0 
+(s1 / surpreender-01
+    :ARG1 (e / eu)
+    :ARG1-of (c / cause-01
+                :ARG0 (r4 / religioso
+                          :domain (u / universidade
+                                     :mod (t3 / esse)))))
+
+# ::snt Os pesquisadores do Inpa interromperam essa seqüencia para extrair o pecíolo.
+# ::tok Os pesquisadores do Inpa interromperam essa seqüencia para extrair o pecíolo .
+# ::alignments 8-9|0 1-2|0.0.1 10-11|0.1 4-5|0.2 5-6|0.2.0.0 
+(e8 / extract-01
+    :ARG0 (p / pessoa
+             :source (g / government-organization
+                        :wiki -
+                        :name (n3 / name
+                                  :op1 "Inpa"))
+             :ARG0-of (p2 / pesquisar-01))
+    :ARG1 (p9 / pecíolo)
+    :purpose-of (i2 / interromper-01
+                    :ARG0 p
+                    :ARG1 (s7 / sequência
+                              :mod (t6 / esse))))
+
+# ::snt No câncer, os genes de interesse são p16, p21, p53 e pRb.
+# ::tok No câncer , os genes de interesse são p16 , p21 , p53 e pRb .
+# ::alignments 6-7|0 4-5|0.0.0 8-9|0.0.0.0+0.0.0.0.0 10-11|0.0.1.0+0.0.1.0.0 12-13|0.0.2.0+0.0.2.0.0 1-2|0.0.3.0+0.1.1.0 
+(i2 / interessar-01
+    :ARG1 (a / and
+             :op1 (g / gene
+                     :name (n2 / name
+                               :op1 "p16"))
+             :op2 (g2 / gene
+                      :name (n3 / name
+                                :op1 "p21"))
+             :op3 (g4 / gene
+                      :name (n4 / name
+                                :op1 "p53"))
+             :op4 (g5 / gene
+                      :name (n5 / name
+                                :op1 "pRb")))
+    :topic (d / disease
+              :wiki "Cancer"
+              :name (n / name
+                       :op1 "Câncer")))
+
+# ::snt Um terço relatou sofrer de artrite, reumatismo ou artrose.
+# ::tok Um terço relatou sofrer de artrite , reumatismo ou artrose .
+# ::alignments 5-6|0 2-3|0.0.0 3-4|0.0.0.0 7-8|0.0.0.0.0.1.0+0.0.0.0.0.1.0.0 9-10|0.0.0.0.0.2.0+0.0.0.0.0.2.0.0 
+(i2 / include-91
+    :ARG1 (p / pessoa
+             :ARG0-of (r / relatar-01
+                         :ARG1 (s / sofrer-02
+                                  :ARG1 p
+                                  :ARG2 (o / or
+                                           :op1 (d / disease
+                                                   :name (n / name
+                                                            :op1 "artrite"))
+                                           :op2 (d2 / disease
+                                                    :name (n2 / name
+                                                              :op1 "reumatismo"))
+                                           :op3 (d3 / disease
+                                                    :name (n3 / name
+                                                              :op1 "artrose"))))))
+    :ARG2 (p2 / pessoa)
+    :ARG3 "1/3")
+
+# ::snt O grupo já produziu quatro sistemas desses vetores.
+# ::tok O grupo já produziu quatro sistemas desses vetores .
+# ::alignments 3-4|0 1-2|0.0 5-6|0.1 7-8|0.1.1 2-3|0.2 4-5|0.1.0 
+(p2 / produzir-01
+    :ARG0 (g0 / grupo)
+    :ARG1 (s4 / sistema
+              :quant 4
+              :topic (v6 / vetor
+                         :mod (e / esse)))
+    :time (a1 / já))
+
+# ::snt Feira de ciências e engenharia estimula vocações científicas
+# ::tok Feira de ciências e engenharia estimula vocações científicas
+# ::alignments 5-6|0 0-1|0.0 2-3|0.0.0.0 4-5|0.0.0.1 6-7|0.1 
+(e / estimular-01
+   :ARG0 (f / feira
+            :topic (a / and
+                      :op1 (c / ciência)
+                      :op2 (e1 / engenharia)))
+   :ARG1 (v / vocação
+            :topic (c1 / ciência)))
+
+# ::snt Somos pioneiros", diz Maria de Fátima.
+# ::tok Somos pioneiros " , diz Maria de Fátima .
+# ::alignments 5-6|0 6-7|0.0+0.0.1+0.0.1.1 1-2|0.1 
+(s2 / falar-01
+    :ARG0 (p3 / person
+              :wiki -
+              :name (n4 / name
+                        :op1 "Maria"
+                        :op2 "de"
+                        :op3 "Fátima"))
+    :ARG1 (p1 / pioneiro
+              :domain (w0 / nós)))
+
+# ::snt "O Brasil foi forçado a investir nos laboratórios públicos.
+# ::tok " O Brasil foi forçado a investir nos laboratórios públicos .
+# ::alignments 4-5|0 6-7|0.0 8-9|0.0.0 9-10|0.0.0.0 2-3|0.1+0.1.0+0.1.0.0 
+(f3 / forçar-01
+    :ARG2 (i4 / investir-01
+              :ARG2 (l6 / laboratório
+                        :mod (p5 / público))
+              :ARG0 c0)
+    :ARG1 (c0 / country
+              :name (n1 / name
+                        :op1 "Brasil")
+              :wiki "Brazil"))
+
+# ::snt O setor privado deve, sim, investir em tecnologia.
+# ::tok O setor privado deve , sim , investir em tecnologia .
+# ::alignments 9-10|0 7-8|0.0 1-2|0.1 2-3|0.1.0 
+(o2 / obligate-01
+    :ARG2 (i5 / investir-01
+              :ARG0 s1
+              :ARG2 (t6 / tecnologia))
+    :ARG1 (s1 / setor
+              :mod (p0 / privado)))
+
+# ::snt No epicentro estava a escola.
+# ::tok No epicentro estava a escola .
+# ::alignments 4-5|0 1-2|0.0 
+(e / escola
+   :location (e1 / epicentro))
+
+# ::snt Houve outro acidente histórico algum tempo depois.
+# ::tok Houve outro acidente histórico algum tempo depois .
+# ::alignments 2-3|0 3-4|0.0 1-2|0.1 6-7|0.2 
+(a2 / acidente
+    :mod (h1 / histórico)
+    :mod (o / outro)
+    :time (a5 / depois))
+
+# ::snt Em poucas horas, lavas, cinzas e gases venenosos mataram centenas de pessoas.
+# ::tok Em poucas horas , lavas , cinzas e gases venenosos mataram centenas de pessoas .
+# ::alignments 10-11|0 13-14|0.0 4-5|0.1.0 6-7|0.1.1 9-10|0.1.2.0 1-2|0.2 2-3|0.2.0 
+(k11 / matar-01
+     :ARG1 (p13 / pessoa
+                :quant (m / multiple
+                          :op1 100))
+     :ARG0 (a8 / and
+               :op1 (l / lava)
+               :op2 (c / cinza)
+               :op3 (g / gás
+                       :mod (v / venenoso)))
+     :duration (p / pouco
+                  :unit (h / hora)))
+
+# ::snt Ele é uma pessoa extremamente agradável, incrivelmente simpática.
+# ::tok Ele é uma pessoa extremamente agradável , incrivelmente simpática .
+# ::alignments 3-4|0 5-6|0.0.0 8-9|0.0.1 0-1|0.1 
+(p4 / pessoa
+    :mod (a2 / and
+             :op1 (a3 / agradável
+                      :degree (e / extremo))
+             :op2 (s / simpático
+                     :degree (i2 / incrivel)))
+    :domain (e2 / ele))
+
+# ::snt O CGECon também acompanha a produção científica no país.
+# ::tok O CGECon também acompanha a produção científica no país .
+# ::alignments 3-4|0 2-3|0.0 8-9|0.1.0 6-7|0.1.1 
+(a4 / acompanhar-01
+    :mod (a3 / também)
+    :ARG1 (p6 / produzir-01
+              :location (c7 / país)
+              :mod (s5 / científico))
+    :ARG0 (c0 / government-organization
+              :wiki -
+              :name (n1 / name
+                        :op1 "CGECon")))
+
+# ::snt "A maioria dos países megadiversos são do Terceiro Mundo.
+# ::tok " A maioria dos países megadiversos são do Terceiro Mundo .
+# ::alignments 6-7|0 9-10|0.0 4-5|0.1 5-6|0.1.1 
+(b2 / be-from-91
+    :ARG2 (w6 / mundo
+              :ord (o / ordinal-entity
+                      :value 3)
+              :wiki "Nazi_Germany")
+    :ARG1 (c1 / país
+              :quant maioria
+              :mod (m / megadiverso)))
+
+# ::snt Há uma intensa agitação no núcleo atômico.
+# ::tok Há uma intensa agitação no núcleo atômico .
+# ::alignments 2-3|0 3-4|0.0 5-6|0.0.0 6-7|0.0.0.0 
+(i0 / intense-02
+    :ARG1 (a1 / agitação
+              :location (n3 / núcleo
+                            :mod (a2 / atômico))))
+
+# ::snt Mas é só o começo, claro.
+# ::tok Mas é só o começo , claro .
+# ::alignments 0-1|0 2-3|0.0.0 6-7|0.0.1 
+(c0 / contrast-01
+    :ARG2 (b3 / começar-01
+              :mod (o2 / só)
+              :mod (o4 / claro)))
+
+# ::snt A composição química da própolis é muito complexa.
+# ::tok A composição química da própolis é muito complexa .
+# ::alignments 7-8|0 6-7|0.0.0 4-5|0.1 2-3|0.2 
+(c1 / compor-02
+    :domain-of (c4 / complexo
+                   :degree (v3 / muito))
+    :ARG1 (p2 / própolis)
+    :mod (c0 / químico))
+
+# ::snt Outro momento difícil foi a ditadura militar.
+# ::tok Outro momento difícil foi a ditadura militar .
+# ::alignments 1-2|0 2-3|0.0 0-1|0.1 5-6|0.2 6-7|0.2.0 
+(d1 / momento
+    :mod (m2 / difícil)
+    :mod (a0 / outro)
+    :domain (d4 / ditadura
+                :mod (m3 / militar)))
+
+# ::snt Atualmente, a transmissão ocorre principalmente nas transfusões sanguíneas.
+# ::tok Atualmente , a transmissão ocorre principalmente nas transfusões sanguíneas .
+# ::alignments 3-4|0 4-5|0.0 7-8|0.3 8-9|0.3.0 
+(t1 / transmitir-01
+    :ARG1-of (o / ocorrer-01)
+    :mod (m2 / principal)
+    :time (n0 / atual)
+    :manner (t4 / transfusão
+                :mod (b3 / sanguíneo)))
+
+# ::snt A leitura é feita para cada um dos parâmetros.
+# ::tok A leitura é feita para cada um dos parâmetros .
+# ::alignments 0-1|0 5-6|0.1.0 8-9|0.1.1 
+(d1 / do-02
+    :ARG1 (r0 / ler-01)
+    :ARG2 (i4 / include-91
+              :ARG1 (e2 / cada)
+              :ARG2 (p5 / parâmetro)))
+
+# ::snt O DFG acena com algum desafogo para os pesquisadores.
+# ::tok O DFG acena com algum desafogo para os pesquisadores .
+# ::alignments 2-3|0 5-6|0.1 8-9|0.1.1.0 
+(b3 / acenar-01
+    :ARG0 (o0 / government-organization
+              :name (n1 / name
+                        :op1 "Dfg")
+              :wiki -)
+    :manner (s5 / desafogo
+                :quant algum
+                :ARG3 (p6 / pessoa
+                          :ARG0-of (r7 / pesquisar-01))))
+
+# ::snt Carlos Vogt é o novo presidente da FAPESP
+# ::tok Carlos Vogt é o novo presidente da FAPESP
+# ::alignments 5-6|0 4-5|0.1.0 
+(h8 / have-org-role-91
+    :ARG1 (c4 / government-organization
+              :name (n5 / name
+                        :op1 "Fapesp")
+              :wiki -)
+    :ARG2 (p9 / presidente
+              :mod (n7 / novo))
+    :ARG0 (p0 / person
+              :name (n1 / name
+                        :op1 "Carlos"
+                        :op2 "Vogt")
+              :wiki -))
+
+# ::snt O cupuaçu é uma importante fonte de renda para pequenos produtores no Acre.
+# ::tok O cupuaçu é uma importante fonte de renda para pequenos produtores no Acre .
+# ::alignments 5-6|0 4-5|0.0 7-8|0.1 9-10|0.2.1 1-2|0.4 
+(s3 / fonte
+    :mod (i2 / importante)
+    :domain (i4 / renda)
+    :beneficiary (p6 / pessoa
+                     :location (c8 / state
+                                   :name (n9 / name
+                                             :op1 "Acre")
+                                   :wiki -)
+                     :mod (s5 / pequeno)
+                     :ARG0-of (p7 / produzir-01
+                                  :ARG1 n0))
+    :wiki -
+    :domain (n0 / cupuaçu))
+
+# ::snt Na sociedade contemporânea, medimos tudo, inclusive as paixões.
+# ::tok Na sociedade contemporânea , medimos tudo , inclusive as paixões .
+# ::alignments 7-8|0 9-10|0.0 5-6|0.1 4-5|0.1.0 1-2|0.1.0.0 2-3|0.1.0.0.0 
+(i5 / include-91
+    :ARG1 (p6 / paixão)
+    :ARG1 (e4 / tudo
+              :ARG1-of (m3 / medir-01
+                           :location (s1 / sociedade
+                                         :mod (c0 / contemporâneo))
+                           :ARG0 (w2 / nós))))
+
+# ::snt "Todas as moléculas apontam para a mesma direção.
+# ::tok " Todas as moléculas apontam para a mesma direção .
+# ::alignments 4-5|0 3-4|0.0 1-2|0.1 8-9|0.2 7-8|0.2.0 
+(p2 / apontar-01
+    :ARG0 (m1 / molécula)
+    :mod (a0 / todo)
+    :ARG3 (d4 / direção
+              :mod (s3 / mesmo)))
+
+# ::snt Nove anos depois, Watson, Crick e Wilkins ganharam o Nobel.
+# ::tok Nove anos depois , Watson , Crick e Wilkins ganharam o Nobel .
+# ::alignments 0-1|0 2-3|0.2 1-2|0.2.0+0.2.0.0 
+(w4 / vencer-02
+    :ARG0 (a10 / and
+               :op1 (p4 / person
+                        :name (n5 / name
+                                  :op1 "Watson")
+                        :wiki -)
+               :op2 (p7 / person
+                        :name (n8 / name
+                                  :op1 "Crick")
+                        :wiki -)
+               :op3 (p11 / person
+                         :wiki -
+                         :name (n12 / name
+                                    :op1 "Wilkins")))
+    :ARG1 (a16 / award
+               :wiki "Nobel_Prize"
+               :name (n17 / name
+                          :op1 "Nobel"))
+    :time (d / depois
+             :op1 (t1 / temporal-quantity
+                      :unit (y2 / ano)
+                      :quant 9)))
+
+# ::snt O objetivo é atrair maior atenção internacional.
+# ::tok O objetivo é atrair maior atenção internacional .
+# ::alignments 1-2|0 3-4|0.0 5-6|0.0.0 4-5|0.0.0.0 6-7|0.0.0.1 
+(a4 / objetivar-01
+    :ARG1 (a1 / atrair-01
+              :ARG1 (a / atenção
+                       :degree (g2 / maior)
+                       :mod (i3 / internacional))))
+
+# ::snt Mapeamento inédito detecta 150 berçários no Hemisfério Sul
+# ::tok Mapeamento inédito detecta 150 berçários no Hemisfério Sul
+# ::alignments 2-3|0 0-1|0.0 1-2|0.0.0 4-5|0.1 3-4|0.1.0 
+(d2 / detectar-01
+    :ARG0 (m1 / mapeamento
+              :mod (p0 / inédito))
+    :ARG1 (p4 / berçário
+              :quant 150
+              :location (l5 / location
+                            :wiki -
+                            :name (n6 / name
+                                      :op1 "Hemisfério"
+                                      :op2 "Sul"))))
+
+# ::snt Outras variantes climáticas podem amenizar ou mesmo contrabalançar o seu efeito.
+# ::tok Outras variantes climáticas podem amenizar ou mesmo contrabalançar o seu efeito .
+# ::alignments 2-3|0 1-2|0.0.0.0 0-1|0.0.0.0.0 10-11|0.0.0.0.2 6-7|0.0.0.1.0 
+(p3 / possible-01
+    :ARG1 (o5 / or
+              :op1 (s4 / soften-01
+                       :ARG0 (v2 / variante
+                                 :mod (o0 / outro)
+                                 :mod (c1 / climático)
+                                 :ARG1 (e8 / efeito))
+                       :op2 (o7 / compensar-01
+                                :mod (e6 / mesmo)
+                                :ARG0 v2
+                                :ARG1 e8))))
+
+# ::snt "Nós estamos ficando velhos antes de sermos ricos."
+# ::tok " Nós estamos ficando velhos antes de sermos ricos . "
+# ::alignments 3-4|0 1-2|0.0 8-9|0.0.0.0 5-6|0.0.0.1 4-5|0.1 
+(g4 / ficar-201
+    :ARG0 (w0 / nós
+              :ARG0-of (g1 / conseguir-02
+                           :ARG1 (r5 / rico)
+                           :time (a / antes)))
+    :ARG1 (b3 / velho))
+
+# ::snt Infelizmente, esse intento ainda é um sonho distante.
+# ::tok Infelizmente , esse intento ainda é um sonho distante .
+# ::alignments 7-8|0 8-9|0.0 4-5|0.1.0 2-3|0.1.1 
+(t6 / sonho
+    :mod (d5 / distante)
+    :domain (i3 / pretender-01
+                :mod (s4 / ainda)
+                :mod (t2 / esse))
+    :mod (f0 / feliz
+             :polarity -))
+
+# ::snt O toxoplasma é transmitido pelo contato com fezes de gatos.
+# ::tok O toxoplasma é transmitido pelo contato com fezes de gatos .
+# ::alignments 3-4|0 7-8|0.0.0 9-10|0.0.0.0 1-2|0.1.0+0.1.0.0 
+(t2 / transmitir-01
+    :ARG0 (c3 / tocar-01
+              :ARG1 (f4 / fezes
+                        :source (c5 / gato)))
+    :ARG1 (t / taxon
+             :name (n0 / name
+                       :op1 "Toxoplasma")))
+
+# ::snt Esse processo, chamado de oxidação, serve para exterminar algas, germes, vírus e bactérias.
+# ::tok Esse processo , chamado de oxidação , serve para exterminar algas , germes , vírus e bactérias .
+# ::alignments 9-10|0 1-2|0.0 5-6|0.0.0.0 0-1|0.0.1 10-11|0.1.0 12-13|0.1.1 14-15|0.1.2 16-17|0.1.3 7-8|0.2 
+(e / eliminar-01
+   :ARG0 (p / processo
+            :ARG1-of (c2 / denominar-01
+                         :ARG2 (o3 / oxidação))
+            :mod (t0 / esse))
+   :ARG1 (a9 / and
+             :op1 (a6 / algas)
+             :op2 (g7 / germe)
+             :op3 (v8 / vírus)
+             :op4 (b10 / bactéria))
+   :ARG2-of (s / servir-02
+               :ARG1 p))
+
+# ::snt Isso veio com a Segunda Grande Guerra.
+# ::tok Isso veio com a Segunda Grande Guerra .
+# ::alignments 1-2|0 0-1|0.1 
+(c1 / vir-01
+    :ARG3 (w5 / war
+              :wiki "Second_Amendment_to_the_United_States_Constitution"
+              :name (n3 / name
+                        :op1 "Segunda"
+                        :op2 "Guerra"
+                        :op3 "Mundial"))
+    :ARG1 (t0 / isso))
+
+# ::snt Distúrbio compulsivo e o temor a Deus
+# ::tok Distúrbio compulsivo e o temor a Deus
+# ::alignments 4-5|0 0-1|0.1.0 1-2|0.1.0.0 
+(f3 / temer-01
+    :ARG1 (t / thing
+             :wiki "God"
+             :name (n5 / name
+                       :op1 "Deus"))
+    :op2-of (a2 / and
+                :op1 (d1 / distúrbio
+                         :mod (c / compulsão))))
+
+# ::snt O primeiro está diretamente relacionado à instabilidade da moeda.
+# ::tok O primeiro está diretamente relacionado à instabilidade da moeda .
+# ::alignments 2-3|0 6-7|0.1 8-9|0.1.0 1-2|0.0.0.0 
+(r3 / ter-402
+    :ARG1 (c / coisa
+             :ord (o1 / ordinal-entity
+                      :value 1))
+    :ARG3 (i4 / instabilidade
+              :topic (c5 / moeda))
+    :manner (d / direto))
+
+# ::snt O medicamento chegará ao mercado graças a duas parcerias.
+# ::tok O medicamento chegará ao mercado graças a duas parcerias .
+# ::alignments 2-3|0 8-9|0.0 1-2|0.1.0 4-5|0.1.1 
+(t3 / cause-01
+    :ARG0 (p5 / parceria
+              :quant 2)
+    :ARG1 (g1 / chegar-01
+              :ARG0 (m0 / medicamento)
+              :ARG1 (m2 / mercado)))
+
+# ::snt O frio que veio do calor
+# ::tok O frio que veio do calor
+# ::alignments 3-4|0 1-2|0.0 5-6|0.1 
+(c1 / vir-01
+    :ARG1 (c0 / frio)
+    :ARG3 (h2 / calor))
+
+# ::snt Eles possuem diversos sensores e podem ser controlados por joysticks a distância.
+# ::tok Eles possuem diversos sensores e podem ser controlados por joysticks a distância .
+# ::alignments 11-12|0 0-1|0.0.0 7-8|0.0.0.0 9-10|0.0.0.0.0 3-4|0.0.1 
+(a4 / and
+    :op1 (h1 / ter-01
+             :ARG0 (e / eles
+                      :ARG1-of (c6 / controlar-01
+                                   :ARG2 (j7 / joysticks)
+                                   :ARG1-of p5
+                                   :manner (d8 / distância)))
+             :ARG1 (s3 / sensor
+                       :quant diversos))
+    :op2 (p5 / possible-01))
+
+# ::snt "Essas populações de ameríndios provavelmente tiveram uma origem comum."
+# ::tok " Essas populações de ameríndios provavelmente tiveram uma origem comum . "
+# ::alignments 5-6|0 2-3|0.0.0 4-5|0.0.0.0+0.0.0.0.1+0.0.0.0.1.0 1-2|0.0.0.1 9-10|0.0.1 
+(p5 / provável
+    :domain (o7 / originate-01
+                :ARG1 (p1 / população
+                          :consist-of (e / regional-group
+                                         :wiki -
+                                         :name (n3 / name
+                                                   :op1 "Ameríndios"))
+                          :mod (t0 / esse))
+                :mod (c6 / comum)))
+
+# ::snt O setor aeroespacial também está sendo sondado.
+# ::tok O setor aeroespacial também está sendo sondado .
+# ::alignments 4-5|0 3-4|0.0 1-2|0.1 2-3|0.1.0 
+(s3 / investigar-01
+    :mod (a2 / também)
+    :ARG1 (s1 / setor
+              :mod (a0 / aeroespacial)))
+
+# ::snt "Essa descoberta pode ter uma enorme aplicação na medicina", diz o pesquisador.
+# ::tok " Essa descoberta pode ter uma enorme aplicação na medicina " , diz o pesquisador .
+# ::alignments 7-8|0 14-15|0.0.0 1-2|0.1.0.0.0 9-10|0.1.0.1 6-7|0.1.0.2 
+(s7 / falar-01
+    :ARG0 (p8 / pessoa
+              :ARG0-of (r9 / pesquisa-01))
+    :ARG1 (p2 / possible-01
+              :ARG1 (a5 / praticar-01
+                        :ARG1 (d1 / descobrir-01
+                                  :mod (t0 / esse))
+                        :ARG2 (m6 / medicina)
+                        :degree (e4 / enorme))))
+
+# ::snt Pesquisadores da Unesp desenvolvem novos materiais para a produção de CDs e DVDs
+# ::tok Pesquisadores da Unesp desenvolvem novos materiais para a produção de CDs e DVDs
+# ::alignments 3-4|0 0-1|0.0.0.1 5-6|0.1 4-5|0.1.0 
+(d4 / desenvolver-01
+    :ARG0 (p / pessoa
+             :ARG0-of (h / have-org-role-91
+                         :ARG1 (c1 / university
+                                   :wiki -
+                                   :name (n2 / name
+                                             :op1 "Unesp"))
+                         :ARG3 (r0 / pesquisar-01
+                                   :ARG0 p)))
+    :ARG1 (m6 / material
+              :mod (n5 / novo))
+    :purpose (p7 / produzir-01
+                 :ARG1 (a8 / and
+                           :op1 (d1 / disco
+                                    :mod (c / compacto))
+                           :op2 (d9 / disco
+                                    :mod (d / digital)
+                                    :mod (v / versátil)))))
+
+# ::snt "Cheguei aos mesmos resultados empregando os dois métodos.
+# ::tok " Cheguei aos mesmos resultados empregando os dois métodos .
+# ::alignments 1-2|0 4-5|0.1 8-9|0.2.0 7-8|0.2.0.0 
+(a1 / chegar-01
+    :ARG0 (e / eu)
+    :ARG1 (t3 / resultar-01
+              :ARG1-of (s2 / same-01))
+    :manner (u5 / utilizar-101
+                :ARG0 e
+                :ARG1 (m7 / método
+                          :quant 2)))
+
+# ::snt A tranqüilidade dos vastos planaltos de Goiás e Tocantins é só aparente.
+# ::tok A tranqüilidade dos vastos planaltos de Goiás e Tocantins é só aparente .
+# ::alignments 11-12|0 10-11|0.0 4-5|0.1.0 3-4|0.1.0.0 
+(a11 / aparente
+     :mod (o10 / só)
+     :domain (t0 / tranquilo
+                 :domain (p2 / planalto
+                             :mod (v1 / vasto)
+                             :location (a6 / and
+                                           :op1 (p3 / state
+                                                    :wiki -
+                                                    :name (n4 / name
+                                                              :op1 "Goiás"))
+                                           :op2 (c7 / state
+                                                    :wiki -
+                                                    :name (n8 / name
+                                                              :op1 "Tocantins"))))))
+
+# ::snt Optolink, Saat, Bioluz, Ecco e Elemed são as outras cinco empresas.
+# ::tok Optolink , Saat , Bioluz , Ecco e Elemed são as outras cinco empresas .
+# ::alignments 13-14|0 11-12|0.1 12-13|0.0 
+(c20 / empresa
+     :quant 5
+     :mod (o18 / outro)
+     :domain (a14 / and
+                  :op1 (p0 / company
+                           :wiki -
+                           :name (n1 / name
+                                     :op1 "Optolink"))
+                  :op2 (p4 / company
+                           :wiki -
+                           :name (n5 / name
+                                     :op1 "Saat"))
+                  :op3 (p8 / company
+                           :wiki -
+                           :name (n9 / name
+                                     :op1 "Bioluz"))
+                  :op4 (c11 / company
+                            :wiki -
+                            :name (n12 / name
+                                       :op1 "Ecco"))
+                  :op5 (c15 / company
+                            :wiki -
+                            :name (n16 / name
+                                       :op1 "Elemed"))))
+
+# ::snt O tema foi escolhido para atender a demanda do mercado.
+# ::tok O tema foi escolhido para atender a demanda do mercado .
+# ::alignments 3-4|0 1-2|0.0 5-6|0.1 9-10|0.1.0.0 
+(c1 / escolher-01
+    :ARG1 (t0 / tema)
+    :ARG4 (m2 / atender-02
+              :ARG0 t0
+              :ARG1 (d4 / reivindicar-01
+                        :ARG0 (m3 / mercado))))
+
+# ::snt Os ossos possuem essa característica e seu crescimento está associado à piezeletricidade.
+# ::tok Os ossos possuem essa característica e seu crescimento está associado à piezeletricidade .
+# ::alignments 8-9|0 1-2|0.0 4-5|0.1 3-4|0.1.0 9-10|0.2.0 11-12|0.2.0.1 
+(h1 / ter-01
+    :ARG0 (b0 / osso)
+    :ARG1 (c3 / característica
+              :mod (t2 / esse))
+    :op1-of (a4 / and
+                :op2 (a6 / associar-01
+                         :ARG1 (g5 / crescer-01
+                                   :ARG1 b0)
+                         :ARG2 (p7 / piezeletricidade))))
+
+# ::snt Se for um fracasso, todo mundo perde.
+# ::tok Se for um fracasso , todo mundo perde .
+# ::alignments 3-4|0 7-8|0.0 
+(f1 / fracassar-01
+    :condition-of (l3 / perder-01
+                      :ARG0 (e2 / todo_mundo)))
+
+# ::snt Esse tipo de planta geralmente tem longa vida.
+# ::tok Esse tipo de planta geralmente tem longa vida .
+# ::alignments 7-8|0 6-7|0.0 3-4|0.1 1-2|0.1.0 0-1|0.1.0.0 
+(l5 / viver-01
+    :duration (l4 / longo)
+    :ARG0 (p2 / planta
+              :mod (k1 / tipo
+                       :mod (t0 / esse)))
+    :frequency (u3 / geral))
+
+# ::snt Ompi adota o termo biogrilagem para atos de apropriação do conhecimento tradicional
+# ::tok Ompi adota o termo biogrilagem para atos de apropriação do conhecimento tradicional
+# ::alignments 1-2|0 3-4|0.1 4-5|0.0.1+0.1.0.0 11-12|0.2.0.0.0 
+(a3 / adotar-01
+    :ARG0 (c0 / government-organization
+              :wiki -
+              :name (n1 / name
+                        :op1 "Ompi"))
+    :ARG1 (t4 / termo
+              :name (n2 / name
+                        :op1 "biogrilagem"))
+    :purpose (d / denominar-01
+                :ARG1 (a6 / appropriate-01
+                          :ARG0 c0
+                          :ARG1 (k8 / saber-01
+                                    :mod (t7 / tradicional))
+                          :ARG2 t4)))
+
+# ::snt Primeiro, eles colocaram as moléculas de serina em água.
+# ::tok Primeiro , eles colocaram as moléculas de serina em água .
+# ::alignments 3-4|0 2-3|0.1 5-6|0.2 7-8|0.2.0.0+0.2.0.0.0 9-10|0.3 
+(p3 / colocar-01
+    :li 1
+    :ARG0 (e / eles)
+    :ARG1 (m / molécula
+             :mod (a / amino-acid
+                     :name (n / name
+                              :op1 "serina")))
+    :ARG2 (w6 / água))
+
+# ::snt Embaladas a vácuo, as cenouras duram 20 dias sob refrigeração.
+# ::tok Embaladas a vácuo , as cenouras duram 20 dias sob refrigeração .
+# ::alignments 0-1|0 5-6|0.0 6-7|0.0.0 8-9|0.0.0.0+0.0.0.0.1 10-11|0.0.0.1 2-3|0.1 7-8|0.0.0.0.0 
+(p1 / pack-01
+    :ARG2 (c3 / cenoura
+              :ARG1-of (d / durar-01
+                          :ARG2 (t6 / temporal-quantity
+                                    :quant 20
+                                    :unit (d2 / dia))
+                          :condition (r8 / refrigeração)))
+    :manner (v0 / vácuo))
+
+# ::snt A resposta se divide em várias frentes.
+# ::tok A resposta se divide em várias frentes .
+# ::alignments 1-2|0 3-4|0.0 6-7|0.0.0 5-6|0.0.0.0 
+(a0 / responder-01
+    :ARG1-of (d / dividir-01
+                :ARG2 (f3 / frente
+                          :quant (v / vários))))
+
+# ::snt Mas os resultados ainda não são animadores.
+# ::tok Mas os resultados ainda não são animadores .
+# ::alignments 0-1|0 2-3|0.0.1.0 3-4|0.0.2 4-5|0.0.0 
+(c / contrast-01
+   :ARG2 (i2 / incentivar-01
+             :polarity -
+             :ARG0 (c2 / coisa
+                       :ARG2-of (r / resultar-01))
+             :mod (a / ainda)))
+
+# ::snt Regina reconhece que a região tem problemas com atendimento de saúde.
+# ::tok Regina reconhece que a região tem problemas com atendimento de saúde .
+# ::alignments 5-6|0 4-5|0.0 6-7|0.1 10-11|0.2.0 1-2|0.3 
+(t / ter-11
+   :ARG0 (r4 / região)
+   :ARG1 (p6 / problema)
+   :ARG2 (s8 / servir-03
+             :topic (h7 / saúde))
+   :ARG1-of (r / reconhecer-01
+               :ARG0 (p0 / person
+                         :wiki -
+                         :name (n1 / name
+                                   :op1 "Regina"))))
+
+# ::snt Thompson encontrou seis objetos que poderiam corresponder à fonte gama identificada por Wallace.
+# ::tok Thompson encontrou seis objetos que poderiam corresponder à fonte gama identificada por Wallace .
+# ::alignments 1-2|0 3-4|0.0 8-9|0.0.0.0 10-11|0.0.0.0.0 9-10|0.0.0.0.1 2-3|0.0.1 
+(f3 / levantar-02
+    :ARG1 (o5 / objeto
+              :ARG1-of (c7 / equivaler-01
+                           :ARG2 (s9 / fonte
+                                     :ARG1-of (i10 / identificar-01
+                                                   :ARG0 (p11 / person
+                                                              :name (n12 / name
+                                                                         :op1 "Wallace")
+                                                              :wiki "George_Wallace"))
+                                     :mod (g8 / gama))
+                           :ARG1-of (p6 / possible-01))
+              :quant 6)
+    :ARG0 (p0 / person
+              :name (n1 / name
+                        :op1 "Thompson")
+              :wiki -))
+
+# ::snt - Há limites computacionais, de tempo e de velocidade.
+# ::tok - Há limites computacionais , de tempo e de velocidade .
+# ::alignments 2-3|0 6-7|0.0.0 9-10|0.0.1 
+(l / limitar-01
+   :ARG1 (a3 / and
+             :op1 (t2 / tempo)
+             :op2 (v / velocidade))
+   :topic (c / compute-01))
+
+# ::snt A mesma questão se levanta quanto à marca.
+# ::tok A mesma questão se levanta quanto à marca .
+# ::alignments 5-6|0 4-5|0.0.0 7-8|0.0.0.0 
+(q2 / questionar-01
+    :ARG1 (t1 / coisa
+              :ARG1-of (l / levantar-03
+                          :topic (m / marca))
+              :ARG1-of (s0 / same-01)))
+
+# ::snt A saga dos pesquisadores do Cebrid
+# ::tok A saga dos pesquisadores do Cebrid
+# ::alignments 1-2|0 3-4|0.0.0.1 
+(s0 / saga
+    :poss (p / pessoa
+             :ARG0-of (h / have-org-role-91
+                         :ARG1 (g / research-institute
+                                  :wiki -
+                                  :name (n4 / name
+                                            :op1 "Cebrid"))
+                         :ARG3 (p2 / pesquisar-01
+                                   :ARG0 p))))
+
+# ::snt Essa economia, no entanto, foi perdida com o consumo extra de combustível.
+# ::tok Essa economia , no entanto , foi perdida com o consumo extra de combustível .
+# ::alignments 11-12|0 7-8|0.0 1-2|0.0.0 0-1|0.0.0.0 13-14|0.0.1.0.0 
+(h2 / have-concession-91
+    :ARG1 (l3 / perder-02
+              :ARG1 (e / economia
+                       :mod (t0 / esse))
+              :ARG1-of (c / cause-01
+                          :ARG0 (c5 / consumir-01
+                                    :ARG1 (f6 / combustível)
+                                    :degree (e4 / extra)))))
+
+# ::snt UE luta para manter a pesquisa em casa
+# ::tok UE luta para manter a pesquisa em casa
+# ::alignments 1-2|0 3-4|0.1 5-6|0.1.0 7-8|0.1.1 
+(f3 / lutar-01
+    :ARG0 (o0 / organization
+              :wiki "European_Union"
+              :name (n1 / name
+                        :op1 "UE"))
+    :purpose (m / manter-01
+                :ARG1 (p / pesquisar-01)
+                :ARG2 (h6 / casa)))
+
+# ::snt O Prumo é um laboratório móvel que atende pequenas empresas.
+# ::tok O Prumo é um laboratório móvel que atende pequenas empresas .
+# ::alignments 7-8|0 4-5|0.0 9-10|0.1 8-9|0.1.0 
+(a3 / atender-01
+    :ARG0 (l2 / laboratório
+              :name (n / name
+                       :op1 "Prumo")
+              :ARG1-of (m1 / mover-101))
+    :ARG1 (c5 / empresa
+              :mod (s4 / pequeno)))
+
+# ::snt Ora, nem todos os atos designados por biopirataria são necessariamente ilegais.
+# ::tok Ora , nem todos os atos designados por biopirataria são necessariamente ilegais .
+# ::alignments 11-12|0 6-7|0.1.0 8-9|0.1.0.0 3-4|0.1.1 10-11|0.2 
+(l / legal
+   :polarity -
+   :domain (a4 / agir-01
+               :ARG1-of (d / designar-01
+                           :ARG2 (b / biopirataria))
+               :mod (a3 / todos
+                        :polarity -))
+   :mod (n / necessariamente))
+
+# ::snt "É tudo técnica, muita técnica, muita pesquisa."
+# ::tok " É tudo técnica , muita técnica , muita pesquisa . "
+# ::alignments 2-3|0 3-4|0.0.0 5-6|0.0.1.0 9-10|0.0.2 
+(t2 / tudo
+    :domain (a / and
+               :op1 (t / técnica)
+               :op2 (t3 / técnica
+                        :quant (l2 / muito))
+               :op3 (p / pesquisar-01
+                       :quant (m / muito))))
+
+# ::snt Nada como a simplicidade para resolver problemas aparentemente insolúveis.
+# ::tok Nada como a simplicidade para resolver problemas aparentemente insolúveis .
+# ::alignments 6-7|0 0-1|0.0 3-4|0.1 5-6|0.2 
+(r1 / lembrar-02
+    :ARG1 (n0 / nada)
+    :ARG2 (s / simplicidade)
+    :topic (s2 / resolver-02
+               :ARG1 (p / problema
+                        :ARG1-of (p2 / parecer-01
+                                     :ARG2 (p3 / possible-01
+                                               :polarity -
+                                               :ARG1 (r / resolver-02
+                                                        :ARG1 p))))))
+
+# ::snt No Brasil, a grande maioria dos estudos pertence à fase 3.
+# ::tok No Brasil , a grande maioria dos estudos pertence à fase 3 .
+# ::alignments 8-9|0 5-6|0.0 4-5|0.0.0 7-8|0.0.1 10-11|0.1 1-2|0.2+0.2.1+0.2.1.0 
+(b6 / pertencer-01
+    :ARG1 (m4 / maioria
+              :mod (g3 / grande)
+              :quant-of (s5 / estudo))
+    :ARG2 (s7 / fase
+              :mod 3)
+    :location (c0 / country
+                  :wiki "Brazil"
+                  :name (n1 / name
+                            :op1 "Brasil")))
+
+# ::snt A reestruturação implicou uma queda brusca no número de clientes.
+# ::tok A reestruturação implicou uma queda brusca no número de clientes .
+# ::alignments 2-3|0 7-8|0.1.0 9-10|0.1.0.0 5-6|0.1.1 
+(i1 / implicar-01
+    :ARG0 (r / restructure-01)
+    :ARG1 (f3 / cair-01
+              :ARG1 (n4 / número
+                        :quant-of (c5 / cliente))
+              :degree (b2 / brusco)))
+
+# ::snt Peixes e tabus do Rio Negro
+# ::tok Peixes e tabus do Rio Negro
+# ::alignments 2-3|0 0-1|0.0 
+(a1 / and
+    :op1 (f0 / peixe)
+    :op2 (t2 / tabu
+             :location (r5 / river
+                           :name (n3 / name
+                                     :op1 "Rio"
+                                     :op2 "Negro")
+                           :wiki -)))
+
+# ::snt Um passo além da barreira da luz
+# ::tok Um passo além da barreira da luz
+# ::alignments 1-2|0 2-3|0.1 4-5|0.1.0 6-7|0.1.0.0 
+(b2 / passo
+    :quant 1
+    :destination (s1 / além
+                     :op1 (b3 / barreira
+                              :domain (l4 / luz))))
+
+# ::snt Esse tipo de aparelho possui um vasto campo de aplicação.
+# ::tok Esse tipo de aparelho possui um vasto campo de aplicação .
+# ::alignments 0-1|0 3-4|0.0 1-2|0.0.0 7-8|0.1 9-10|0.1.0 6-7|0.1.1 
+(h3 / ter-01
+    :ARG0 (a2 / aparelho
+              :mod (k1 / tipo
+                       :mod (t0 / esse)))
+    :ARG1 (c / campo
+             :topic (a6 / aplicação)
+             :mod (v4 / vasto)))
+
+# ::snt O caso da menina assassinada
+# ::tok O caso da menina assassinada
+# ::alignments 1-2|0 4-5|0.0 3-4|0.0.0 
+(c0 / case-04
+    :ARG1 (m1 / assassinar-01
+              :ARG1 (m / menina)))
+
+# ::snt Em conseqüência, o Brasil ficou independente na produção de combustível.
+# ::tok Em conseqüência , o Brasil ficou independente na produção de combustível .
+# ::alignments 5-6|0 6-7|0.0 10-11|0.0.0.0 4-5|0.1+0.1.1+0.1.1.0 
+(b4 / virar-01
+    :ARG2 (d5 / independer-01
+              :ARG1 (p7 / produzir-01
+                        :ARG1 (f6 / combustível))
+              :ARG0 c1)
+    :ARG1 (c1 / country
+              :wiki "Brazil"
+              :name (n2 / name
+                        :op1 "Brasil")))
+
+# ::snt Ciência japonesa falará inglês na Web
+# ::tok Ciência japonesa falará inglês na Web
+# ::alignments 2-3|0 5-6|0.0 3-4|0.1+0.1.1+0.1.1.0 0-1|0.2 1-2|0.2.0+0.2.0.0+0.2.0.0.0 
+(s4 / falar-01
+    :medium (w / Web)
+    :ARG1 (l / language
+             :wiki "English_language"
+             :name (n6 / name
+                       :op1 "inglês"))
+    :ARG0 (s3 / ciência
+              :domain (c0 / country
+                          :name (n1 / name
+                                    :op1 "Japão")
+                          :wiki "Japan")))
+
+# ::snt O mesmo ocorreu na Revolução Pernambucana de 1817.
+# ::tok O mesmo ocorreu na Revolução Pernambucana de 1817 .
+# ::alignments 2-3|0 
+(o / ocorrer-01
+   :ARG1 (s / same-01
+            :location (e3 / political-movement
+                          :name (n / name
+                                   :op1 "Revolução"
+                                   :op2 "Pernambucana")
+                          :time (d7 / date-entity
+                                    :year (x / 1817)))))
+
+# ::snt Os acelerômetros fornecem dados relacionados à velocidade do avião.
+# ::tok Os acelerômetros fornecem dados relacionados à velocidade do avião .
+# ::alignments 4-5|0 1-2|0.0 3-4|0.1 6-7|0.1.0 8-9|0.1.0.0 
+(p1 / proporcionar-01
+    :ARG0 (a0 / acelerômetro)
+    :ARG1 (d2 / dado
+              :topic (s4 / velocidade
+                         :poss (a / avião))))
+
+# ::snt Essa experiência pode ser rica, pode ser fecunda.
+# ::tok Essa experiência pode ser rica , pode ser fecunda .
+# ::alignments 8-9|0 1-2|0.0 4-5|0.0.0.0 0-1|0.0.1 
+(p2 / possible-01
+    :ARG1 (e2 / experiência
+              :domain (a / and
+                         :op1 (r3 / rico)
+                         :op2 (f / fecundo))
+              :mod (e / esse)))
+
+# ::snt Cirurgia planejada com ajuda de protótipo
+# ::tok Cirurgia planejada com ajuda de protótipo
+# ::alignments 1-2|0 0-1|0.0 5-6|0.1 3-4|0.1.0 
+(p1 / planejar-01
+    :ARG1 (s0 / cirurgia)
+    :instrument (h2 / protótipo
+                    :ARG0-of (p3 / ajudar-01)))
+
+# ::snt Não em São Paulo, mas no resto do Brasil, sim.
+# ::tok Não em São Paulo , mas no resto do Brasil , sim .
+# ::alignments 5-6|0 9-10|0.1+0.0.2+0.1.1.0 7-8|0.1.2 0-1|0.0.0 
+(c5 / contrast-01
+    :op1 (c1 / city
+             :wiki -
+             :polarity -
+             :name (n / name
+                      :op1 "São"
+                      :op2 "Paulo"))
+    :op2 (c7 / country
+             :wiki "Brazil"
+             :name (n8 / name
+                       :op1 "Brasil")
+             :part (r6 / resto)))
+
+# ::snt As peças cabiam em uma caixa de sapatos.
+# ::tok As peças cabiam em uma caixa de sapatos .
+# ::alignments 2-3|0 1-2|0.0 5-6|0.1 7-8|0.1.0 
+(c / caber-02
+   :ARG1 (p0 / peça)
+   :ARG2 (b3 / caixa
+             :topic (s2 / sapato)))
+
+# ::snt O modelo reproduz com fidelidade o canto de um pardal.
+# ::tok O modelo reproduz com fidelidade o canto de um pardal .
+# ::alignments 2-3|0 1-2|0.0 4-5|0.1 6-7|0.2 9-10|0.2.0 
+(r2 / reproduzir-01
+    :ARG0 (m0 / modelo)
+    :manner (f1 / fidelidade)
+    :ARG1 (s3 / canto
+              :poss (s4 / pardal)))
+
+# ::snt Mas isso foi feito muito depois da guerra.
+# ::tok Mas isso foi feito muito depois da guerra .
+# ::alignments 0-1|0 3-4|0.0 1-2|0.0.0 5-6|0.0.1 4-5|0.0.1.0 7-8|0.0.1.1 
+(c0 / contrast-01
+    :ARG2 (d2 / fazer-01
+              :ARG1 (t1 / isso)
+              :time (a4 / depois
+                        :degree (l3 / muito)
+                        :op1 (w5 / guerra))))
+
+# ::snt A segunda etapa será a digitalização do material.
+# ::tok A segunda etapa será a digitalização do material .
+# ::alignments 1-2|0 7-8|0.0 2-3|0.1 
+(s / scan-02
+   :ARG1 (m3 / material)
+   :domain (p2 / etapa
+               :ord (o1 / ordinal-entity
+                        :value 2)))
+
+# ::snt A expansão da pesquisa clínica no Brasil tem razões bem objetivas.
+# ::tok A expansão da pesquisa clínica no Brasil tem razões bem objetivas .
+# ::alignments 7-8|0 3-4|0.0.0 4-5|0.0.0.0 6-7|0.0.1+0.0.1.1+0.0.1.1.0 8-9|0.1 10-11|0.1.0 9-10|0.1.0.0 
+(h6 / ter-01
+    :ARG0 (e0 / ampliar-01
+              :ARG1 (r2 / pesquisar-01
+                        :ARG1 (c1 / clínico))
+              :location (c3 / country
+                            :wiki "Brazil"
+                            :name (n4 / name
+                                      :op1 "Brasil")))
+    :ARG1 (r9 / razão
+              :mod (o8 / objetivo
+                       :degree (v7 / bem))))
+
+# ::snt E as incertezas se transformam em agonia.
+# ::tok E as incertezas se transformam em agonia .
+# ::alignments 6-7|0 4-5|0.0 2-3|0.0.0 
+(a0 / and
+    :op2 (t2 / transformar-01
+             :ARG1 (c1 / incerteza)
+             :ARG2 (a / agonia)))
+
+# ::snt As duas equipes se debruçaram especificamente sobre um grupo de genes conhecido como MHC1.
+# ::tok As duas equipes se debruçaram especificamente sobre um grupo de genes conhecido como MHC1 .
+# ::alignments 4-5|0 2-3|0.0 11-12|0.1 8-9|0.1.0 10-11|0.1.0.0 
+(e / estudar-01
+   :ARG0 (e2 / equipe
+             :quant 2)
+   :ARG1 (c / conhecer-01
+            :ARG0 e2
+            :ARG1 (g / grupo
+                     :consist-of (g2 / gene))
+            :ARG2 (m7 / mhc1))
+   :manner (e3 / específico))
+
+# ::snt Porque as ideologias, em geral, racionalizam e justificam o poder.
+# ::tok Porque as ideologias , em geral , racionalizam e justificam o poder .
+# ::alignments 7-8|0 2-3|0.0.0 11-12|0.0.1 9-10|0.1 5-6|0.2 
+(a / and
+   :op1 (r3 / rationalize-01
+            :ARG0 (i1 / ideologia)
+            :ARG1 (p / poder))
+   :op2 (j5 / justificar-01
+            :ARG0 i1
+            :ARG1 p)
+   :manner (g / geral)
+   :ARG0-of (c / cause-01))
+
+# ::snt Uma máquina semelhante, importada, custa por volta de US$ 100.000,00.
+# ::tok Uma máquina semelhante , importada , custa por volta de US $ 100.000 , 00 .
+# ::alignments 6-7|0 1-2|0.0 2-3|0.0.0.0 4-5|0.0.0.1 7-8|0.1 
+(c / custar-01
+   :ARG1 (m / máquina
+            :mod (a / and
+                    :op1 (s / semelhante)
+                    :op2 (i3 / importar-01
+                             :ARG1 m)))
+   :ARG2 (p / por-volta-de
+            :op1 (m5 / monetary-quantity
+                     :quant 100000
+                     :unit (d6 / dólar))))
+
+# ::snt A Femto pretende deter essa inovação em quatro anos.
+# ::tok A Femto pretende deter essa inovação em quatro anos .
+# ::alignments 2-3|0 8-9|0.0.0.0+0.0.0.0.0 5-6|0.0.1 4-5|0.0.1.0 7-8|0.0.0.0.1 
+(i3 / pretender-01
+    :ARG1 (m4 / dominar-02
+              :time (a7 / após
+                        :quant (t9 / temporal-quantity
+                                   :unit (y10 / ano)
+                                   :quant 4))
+              :ARG1 (i6 / inovação
+                        :mod (t5 / esse))
+              :ARG0 p0)
+    :ARG0 (p0 / organization
+              :name (n1 / name
+                        :op1 "Femto")
+              :wiki -))
+

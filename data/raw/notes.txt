@@ -1,0 +1,43 @@
+### sci
+
+remove 96 erro brasileiro (confirmar)
+remove 95 erro brasileiro
+
+196 erro brasileiro
+
+## little prince
+replace tok por snt
+remove 29 (algum erro com indice de tokens)
+159 mesmo erro
+
+remove 350 
+Duplicate node name  e1  in parsing AMR
+Traceback (most recent call last):
+  File "aligner.py", line 457, in <module>
+    main(args.parse_args())
+  File "aligner.py", line 448, in main
+    amr.rename_node(prefix)
+AttributeError: 'NoneType' object has no attribute 'rename_node'
+
+
+remove 342 343 344
+Duplicate node name  e1  in parsing AMR
+Traceback (most recent call last):
+  File "aligner.py", line 457, in <module>
+    main(args.parse_args())
+  File "aligner.py", line 448, in main
+    amr.rename_node(prefix)
+AttributeError: 'NoneType' object has no attribute 'rename_node'
+
+remove 339
+['-', 'Um', 'o', 'quê', '?']
+Duplicate node name  e1  in parsing AMR
+Traceback (most recent call last):
+  File "aligner.py", line 457, in <module>
+    main(args.parse_args())
+  File "aligner.py", line 448, in main
+    amr.rename_node(prefix)
+AttributeError: 'NoneType' object has no attribute 'rename_node'
+
+
+
