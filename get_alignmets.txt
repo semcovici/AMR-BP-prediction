@@ -1,0 +1,4 @@
+python aligner.py -f ../data/raw/4aligner_news_without_alignment.txt
+python aligner.py -f ../data/raw/4aligner_little_prince.txt
+python aligner.py -f ../data/raw/4aligner_opisums.txt
+python aligner.py -f ../data/raw/4aligner_science.txt

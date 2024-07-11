@@ -1,0 +1,19 @@
+# ::snt Meyer tem duas explicações para esses resultados.
+# ::tok Meyer tem duas explicações para esses resultados .
+# ::alignments 1-2|0 5-6|0.0.1.0.0 6-7|0.0.1.0.1
+# ::node	0	ter-01	1-2
+# ::node	0.0.1.0.0	person	5-6
+# ::node	0.0.1.0.1	name	6-7
+(h3 / ter-01
+:ARG0 (p0 / person
+:name (n1 / name
+:op1 "Meyer")
+:ARG1 (e5 / explicar-01
+:ARG0 p0
+:ARG1 (t8 / coisa
+:mod (t7 / esse)
+:ARG2-of (r9 / resultar-01))
+:quant 2)
+:wiki -))
+
+

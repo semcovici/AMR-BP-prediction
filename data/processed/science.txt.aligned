@@ -117,18 +117,6 @@
               :name (n5 / name
                         :op1 "Lewinsohn")))
 
-# ::snt A reunião será em Beijing, em abril.
-# ::tok A reunião será em Beijing , em abril .
-# ::alignments 
-(b1 / be-located-at-91
-    :ARG1 (m0 / reunir-101)
-    :ARG2 (c2 / city
-              :name (n3 / name
-                        :op1 "Beijing")
-              :wiki "Beijing")
-    :time (d6 / date-entity
-              :month (45 / 4)))
-
 # ::snt E isso acontece muito aqui no Brasil.
 # ::tok E isso acontece muito aqui no Brasil .
 # ::alignments 4-5|0 2-3|0.0 1-2|0.0.0 6-7|0.0.1+0.0.1.1+0.0.1.1.0 3-4|0.1 
